@@ -34,9 +34,13 @@ export default {
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
-        'nuxt-purgecss'
+        'nuxt-purgecss',
+        '@nuxtjs/google-analytics'
     ],
     purgeCSS: {},
+    googleAnalytics: {
+        id: 'UA-143785757-1'
+    },
     /*
     ** Axios module configuration
     ** See https://axios.nuxtjs.org/options
