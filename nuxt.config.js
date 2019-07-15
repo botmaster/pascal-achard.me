@@ -48,7 +48,7 @@ export default {
     build: {
         analyze: true,
         extractCSS: {
-            allChunks: true
+            spitChunks: true
         },
         postcss: {
             plugins: {
