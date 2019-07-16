@@ -6,7 +6,7 @@
                 pascal-achard.me
             </h1>
             <h2 class="subtitle">
-                My personnal website!
+                My personnal website
             </h2>
             <h3>Work in progress</h3>
             <!--<div class="links">
