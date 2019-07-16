@@ -45,6 +45,9 @@ export default {
     googleAnalytics: {
         id: 'UA-143785757-1'
     },
+    generate: {
+        fallback: true
+    },
     /*
     ** Axios module configuration
     ** See https://axios.nuxtjs.org/options
