@@ -4,6 +4,10 @@ export default {
     ** Headers of the page
     */
     head: {
+        // this htmlAttrs you need
+        htmlAttrs: {
+            lang: 'fr-fr',
+        },
         title: process.env.npm_package_name || '',
         meta: [
             { charset: 'utf-8' },
