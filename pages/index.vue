@@ -1,78 +1,46 @@
 <template>
-    <div class="container">
-        <div>
-            <!--<logo/>-->
-            <h1 class="title">
-                pascal-achard.me
-            </h1>
-            <h2 class="subtitle">
-                My personnal website!
-            </h2>
-            <h3>Work in progress</h3>
-            <!--<div class="links">
-                <a
-                    href="https://nuxtjs.org/"
-                    target="_blank"
-                    class="button&#45;&#45;green"
-                >
-                    Documentation
-                </a>
-                <a
-                    href="https://github.com/nuxt/nuxt.js"
-                    target="_blank"
-                    class="button&#45;&#45;grey"
-                >
-                    GitHub
-                </a>
-            </div>-->
+    <div class="container mx-auto px-container md:px-container-md">
+
+        <span class="">Hi, that's me</span>
+        <h1 class="">
+            Pascal Achard
+        </h1>
+        <h3 class="text-gray-800">
+            Senior Frontend developer
+        </h3>
+        <div class="-mx-gutter md:-mx-gutter-md">
+            <div class=" md:w-8/12 px-gutter md:px-gutter-md">
+                <p class="text-lg mt-6">
+                    Je suis un développeur front-end sénior depuis 3 ans mais j'ai 20 ans d'expérience dans la
+                    création de sites Web et d'applications Web. Je me suis spécialisé dans le JavaScript et
+                    notamment avec le framework Vuejs.
+                </p>
+                <p class="text-lg mt-3">
+                    Mes journées professionnelles s'articulent principalement dans la conception et la
+                    réalisation de sites internet conçus avec des framework javascript (Vue.js) connectés avec
+                    des solutions back-end (Craftcms, Symfony, Headless, ...).
+                </p>
+                <p class="text-lg mt-3">
+                    J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à profit mon
+                    expérience avec mes collègues de travail.
+                </p>
+            </div>
         </div>
+
+
     </div>
 </template>
 
 <script>
-    import Logo from '~/components/Logo.vue'
-
     export default {
-        components: {
-            Logo
-        }
+        components: {}
     }
 </script>
 
 <style>
-    /* Sample `apply` at-rules with Tailwind CSS
+    /*Sample `apply` at-rules with Tailwind CSS*/
     .container {
-      @apply min-h-screen flex justify-center items-center text-center mx-auto;
-    }
-    */
-    .container {
-        margin: 0 auto;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        @apply min-h-screen flex items-center mx-auto;
     }
 
-    .title {
-        font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-        'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        display: block;
-        font-weight: 300;
-        font-size: 100px;
-        color: #35495e;
-        letter-spacing: 1px;
-    }
-
-    .subtitle {
-        font-weight: 300;
-        font-size: 42px;
-        color: #526488;
-        word-spacing: 5px;
-        padding-bottom: 15px;
-    }
-
-    .links {
-        padding-top: 15px;
-    }
 </style>

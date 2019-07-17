@@ -26,7 +26,8 @@ export default {
     ** Global CSS
     */
     css: [
-        '~/assets/css/tailwind.css'
+        '~/assets/css/tailwind.css',
+        '~/assets/scss/main.scss'
     ],
     /*
     ** Plugins to load before mounting the App
@@ -44,6 +45,9 @@ export default {
     purgeCSS: {},
     googleAnalytics: {
         id: 'UA-143785757-1'
+    },
+    generate: {
+        fallback: true
     },
     /*
     ** Axios module configuration
