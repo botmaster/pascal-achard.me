@@ -15,11 +15,11 @@
                 </div>
             </div>
         </div>
-        <div class="page-index__about about py-24">
+        <div class="page-index__about about bg-white py-24">
             <div class="container mx-auto px-container md:px-container-md">
                 <div class="-mx-gutter md:-mx-gutter-md flex">
                     <div class="md:w-8/12 px-gutter md:px-gutter-md">
-                        <h4 class="text-blue-900">À propos de moi</h4>
+                        <h4 class="text-gray-900">À propos de moi</h4>
                         <p class="text-lg mt-6 text-gray-800">
                             Je suis un développeur front-end sénior depuis 3 ans mais j'ai 20 ans d'expérience dans
                             la création de sites Web et d'applications Web. Je me suis spécialisé dans le JavaScript et
@@ -38,7 +38,7 @@
                 </div>
                 <div class="-mx-gutter md:-mx-gutter-md flex">
                     <div class=" md:w-8/12 px-gutter md:px-gutter-md">
-                        <h4 class="text-blue-900 mt-16">En ce moment je suis fan de</h4>
+                        <h4 class="text-gray-900 mt-16">En ce moment je suis fan de</h4>
                         <p class="text-gray-800 mt-3">
                             Vue.js, Vuex, Craftcms, Twig, tailwindcss, GraphQL, Docker, Webpack, Prettier, Nuxt.js.
                         </p>
