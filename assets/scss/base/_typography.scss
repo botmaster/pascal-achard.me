@@ -1,0 +1,66 @@
+//
+//
+// Created by PhpStorm.
+// User: pascal
+// Date: 2019-07-17
+// Time: 11:49
+//
+
+body {
+    @apply antialiased;
+}
+
+
+h1,
+.h1 {
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-2xl .uppercase;
+
+    @screen md {
+        @apply .text-6xl;
+    }
+}
+
+h2,
+.h2 {
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-xl .uppercase;
+
+    @screen md {
+        @apply .text-5xl;
+    }
+}
+
+h3,
+.h3 {
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-lg .uppercase;
+
+    @screen md {
+        @apply .text-4xl;
+    }
+}
+
+h4,
+.h4 {
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-lg .uppercase;
+
+    @screen md {
+        @apply .text-3xl;
+    }
+}
+
+h5,
+.h5 {
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-lg .uppercase;
+
+    @screen md {
+        @apply .text-3xl;
+    }
+}
+
+h6,
+.h6 {
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-lg .uppercase;
+
+    @screen md {
+        @apply .text-3xl;
+    }
+}
