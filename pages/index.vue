@@ -34,6 +34,9 @@
                             J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à profit
                             mon expérience avec mes collègues de travail.
                         </p>
+                        <p class="mt-6">
+                            <a class="btn btn--black" href="mailto:pascal.achard@gmail.com">Contactez-moi</a>
+                        </p>
                     </div>
                 </div>
                 <div class="-mx-gutter md:-mx-gutter-md flex">
