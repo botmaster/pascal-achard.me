@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="tutu">
     <nuxt />
       <footer-component></footer-component>
   </div>

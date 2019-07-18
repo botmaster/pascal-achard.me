@@ -1,7 +1,7 @@
 {
   "name": "pascal-achard.me",
   "version": "1.0.0",
-  "description": "Pascal Achard personnal website",
+  "description": "Pascal Achard un développeur front-end sénior depuis 3 ans mais qui a 20 ans d'expérience dans la création de sites Web et d'applications Web. Il est spécialisé dans le JavaScript (es6+) et notamment avec le framework Vuejs.",
   "author": "Pascal Achard",
   "private": true,
   "scripts": {
