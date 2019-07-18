@@ -14,8 +14,8 @@ export default {
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
             { name: 'google-site-verification', content: '_ylnpIhPAnWMoDDWYnai5HYIKcjxnkqFS8yeNf75z-0'},
-            { property: 'og:image', content: 'https://www.achard-pascal.me/social-fb.jpg'},
-            { property: 'twitter:image', content: 'https://www.achard-pascal.me/social-fb.jpg'}
+            { property: 'og:image', content: 'https://www.pascal-achard.me/social-fb.jpg'},
+            { property: 'twitter:image', content: 'https://www.pascal-achard.me/social-fb.jpg'}
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
