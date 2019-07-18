@@ -1,6 +1,6 @@
-# pascal-achard.me
+# pascal-achard.me V1
 
-> My personnal website
+> My personnal website built with [Nuxt.js](https://nuxtjs.org) and hosted whith [Netlify](https://www.netlify.com/).
 
 ## Build Setup
 
