@@ -8,3 +8,13 @@
 body {
     @apply .font-rubik-regular .text-gray-800 .bg-black;
 }
+
+
+// Liens
+a {
+    @apply .no-underline .text-blue-500;
+
+    &:hover, &:focus {
+        @apply .no-underline .text-blue-800;
+    }
+}
