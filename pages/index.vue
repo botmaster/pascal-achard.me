@@ -1,6 +1,6 @@
 <template>
     <div class="page-index">
-        <div class="section page-index__cover cover min-h-screen flex items-end relative py-32">
+        <div class="section page-index__cover cover min-h-screen flex items-end relative py-6 md:py-32">
             <div class="cover__background absolute inset-0"></div>
             <div class="cover__dimmer absolute inset-0"></div>
             <div class="container mx-auto px-container md:px-container-md relative">
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="page-index__about about bg-white py-24">
+        <div class="page-index__about about bg-white py-16 md:py-24">
             <div class="container mx-auto px-container md:px-container-md">
                 <div class="-mx-gutter md:-mx-gutter-md flex">
                     <div class="md:w-8/12 px-gutter md:px-gutter-md">
@@ -33,6 +33,9 @@
                         <p class="text-lg mt-3 text-gray-800">
                             J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à profit
                             mon expérience avec mes collègues de travail.
+                        </p>
+                        <p class="mt-6">
+                            <a class="btn btn--black" href="mailto:pascal.achard@gmail.com">Contactez-moi</a>
                         </p>
                     </div>
                 </div>
