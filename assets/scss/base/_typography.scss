@@ -13,7 +13,7 @@ body {
 
 h1,
 .h1 {
-    @apply .font-rubik-black .text-gray-700 .leading-none .text-2xl .uppercase;
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-3xl .uppercase;
 
     @screen md {
         @apply .text-6xl;
@@ -22,7 +22,7 @@ h1,
 
 h2,
 .h2 {
-    @apply .font-rubik-black .text-gray-700 .leading-none .text-xl .uppercase;
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-2xl .uppercase;
 
     @screen md {
         @apply .text-5xl;
@@ -31,7 +31,7 @@ h2,
 
 h3,
 .h3 {
-    @apply .font-rubik-black .text-gray-700 .leading-none .text-lg .uppercase;
+    @apply .font-rubik-black .text-gray-700 .leading-none .text-xl .uppercase;
 
     @screen md {
         @apply .text-4xl;
