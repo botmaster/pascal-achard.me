@@ -1,5 +1,5 @@
 <template>
-    <div class="page-index">
+    <main class="page-index">
         <div class="section page-index__cover cover min-h-screen flex items-end relative py-6 md:py-32">
             <div class="cover__background absolute inset-0"></div>
             <div class="cover__dimmer absolute inset-0"></div>
@@ -34,8 +34,9 @@
                             J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à profit
                             mon expérience avec mes collègues de travail.
                         </p>
-                        <p class="mt-6">
+                        <p class="mt-6 flex">
                             <a class="btn btn--black" href="mailto:pascal.achard@gmail.com">Contactez-moi</a>
+                            <a class="btn btn--black ml-6" href="/CV-PascalAchard-2019.pdf" target="_blank">Resume</a>
                         </p>
                     </div>
                 </div>
@@ -50,7 +51,7 @@
             </div>
 
         </div>
-    </div>
+    </main>
 </template>
 
 <script>

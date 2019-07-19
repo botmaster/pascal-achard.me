@@ -19,6 +19,15 @@
         }
     }
 
+    &--ghost {
+        @apply bg-transparent text-white border border-white;
+        transition: color 0.4s, border-color 0.4s;
+
+        &:hover {
+            @apply bg-black text-white border-black;
+        }
+    }
+
     &--disabled {
         //pointer-events: none;
         @apply opacity-50 cursor-not-allowed;
