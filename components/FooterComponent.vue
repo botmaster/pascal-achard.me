@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-component bg-black text-white py-8">
+    <footer class="footer-component bg-black text-white py-8">
         <div class="container mx-auto px-container md:px-container-md">
             <div class="flex">
                 <a href="https://github.com/botmaster" target="_blank" class="social-item" aria-label="GitHub">
@@ -34,7 +34,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </footer>
 </template>
 
 <script>
@@ -52,7 +52,7 @@
 <style lang="scss" scoped>
     .footer-component {
         .social-item {
-
+            color: theme('colors.white');
             &:not(:first-child) {
                 margin-left: theme('spacing.6');
             }

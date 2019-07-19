@@ -1,8 +1,9 @@
 <template>
-  <div class="tutu">
-    <nuxt />
-      <footer-component></footer-component>
-  </div>
+    <div class="relative">
+        <header-component></header-component>
+        <nuxt/>
+        <footer-component></footer-component>
+    </div>
 </template>
 
 <style>
@@ -10,7 +11,9 @@
 </style>
 <script>
     import FooterComponent from '../components/FooterComponent'
+    import HeaderComponent from '../components/HeaderComponent'
+
     export default {
-        components: { FooterComponent }
+        components: { HeaderComponent, FooterComponent }
     }
 </script>
