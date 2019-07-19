@@ -8,7 +8,7 @@ export default {
         htmlAttrs: {
             lang: 'fr-fr',
         },
-        title: 'Pascal achard',
+        title: 'Pascal achard - SENIOR FRONTEND DEVELOPER',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
