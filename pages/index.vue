@@ -36,7 +36,7 @@
                         </p>
                         <p class="mt-6 flex">
                             <a class="btn btn--black" href="mailto:pascal.achard@gmail.com">Contactez-moi</a>
-                            <a class="btn btn--black ml-6" href="/CV-PascalAchard-2019.pdf" target="_blank">Resume</a>
+                            <a class="btn btn--black ml-6" href="/CV-PascalAchard-2019.pdf" target="_blank">CV</a>
                         </p>
                     </div>
                 </div>
