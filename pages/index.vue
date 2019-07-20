@@ -21,7 +21,7 @@
                     <div class="md:w-8/12 px-gutter md:px-gutter-md">
                         <h4 class="text-gray-900">À propos de moi</h4>
                         <p class="text-lg mt-6 text-gray-800">
-                            Je suis un développeur front-end sénior depuis 3 ans mais j'ai 20 ans d'expérience dans
+                            Je suis développeur front-end sénior depuis 3 ans mais j'ai 20 ans d'expérience dans
                             la création de sites Web et d'applications Web. Je me suis spécialisé dans le JavaScript et
                             notamment avec le framework Vuejs.
                         </p>
