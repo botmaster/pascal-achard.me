@@ -9,9 +9,9 @@
                     <h1 class="text-gray-100">
                         Pascal Achard
                     </h1>
-                    <h3 class="text-blue-200">
+                    <h2 class="text-blue-200 h3">
                         Senior Frontend developer
-                    </h3>
+                    </h2>
                 </div>
             </div>
         </div>
