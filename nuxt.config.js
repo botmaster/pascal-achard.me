@@ -6,16 +6,16 @@ export default {
     head: {
         // this htmlAttrs you need
         htmlAttrs: {
-            lang: 'fr-fr',
+            lang: 'fr-fr'
         },
         title: 'Pascal achard - SENIOR FRONTEND DEVELOPER',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-            { name: 'google-site-verification', content: '_ylnpIhPAnWMoDDWYnai5HYIKcjxnkqFS8yeNf75z-0'},
-            { property: 'og:image', content: 'https://www.pascal-achard.me/social-fb.jpg'},
-            { property: 'twitter:image', content: 'https://www.pascal-achard.me/social-fb.jpg'}
+            { name: 'google-site-verification', content: '_ylnpIhPAnWMoDDWYnai5HYIKcjxnkqFS8yeNf75z-0' },
+            { property: 'og:image', content: 'https://www.pascal-achard.me/social-fb.jpg' },
+            { property: 'twitter:image', content: 'https://www.pascal-achard.me/social-fb.jpg' }
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -24,7 +24,13 @@ export default {
     /*
     ** Customize the progress-bar color
     */
-    loading: { color: '#fff' },
+    loading: {
+        color: '#333333'/*,
+        height: '35px',
+        duration: 3000,
+        throttle: 0,
+        continuous: true*/
+    },
     /*
     ** Global CSS
     */
