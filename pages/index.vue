@@ -1,6 +1,6 @@
 <template>
     <main class="page-index">
-        <div class="section page-index__cover cover min-h-screen flex items-end relative py-6 md:py-32">
+        <div class="section page-index__cover cover flex items-end relative py-6 md:py-32">
             <img src="../assets/images/pascal-achard.jpg" class="cover__background absolute inset-0 w-full h-full"
                  alt="Pascal Achard Senior Frontend developer">
             <div class="cover__dimmer absolute inset-0"></div>
@@ -37,7 +37,8 @@
                         </p>
                         <p class="mt-6 flex">
                             <a class="btn btn--black" href="mailto:pascal.achard@gmail.com">Contactez-moi</a>
-                            <a class="btn btn--black ml-6" href="/CV-PascalAchard-2019.pdf" target="_blank" rel="noopener">CV</a>
+                            <a class="btn btn--black ml-6" href="/CV-PascalAchard-2019.pdf" target="_blank"
+                               rel="noopener">CV</a>
                         </p>
                     </div>
                 </div>
@@ -57,7 +58,22 @@
 
 <script>
     export default {
-        components: {}
+        components: {},
+        created() {
+
+        },
+        mounted() {
+            // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+            let vh = window.innerHeight * 0.01
+            // Then we set the value in the --vh custom property to the root of the document
+            document.documentElement.style.setProperty('--vh', `${vh}px`)
+            // We listen to the resize event
+            window.addEventListener('resize', () => {
+                // We execute the same script as before
+                let vh = window.innerHeight * 0.01;
+                document.documentElement.style.setProperty('--vh', `${vh}px`);
+            });
+        }
     }
 </script>
 
@@ -70,6 +86,11 @@
     }
 
     .cover {
+        min-height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        min-height: calc(var(--vh, 1vh) * 100);
+
+        transition: all 1s;
+
         &__background {
             /*background-image: url("~assets/images/pascal-achard.jpg");*/
             /*background-size: cover;*/
