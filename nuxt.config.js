@@ -50,6 +50,7 @@ export default {
         '@nuxtjs/axios',
         'nuxt-purgecss',
         '@nuxtjs/google-analytics',
+        '@nuxtjs/robots',
         '@nuxtjs/sitemap'
     ],
     purgeCSS: {},
@@ -58,6 +59,10 @@ export default {
     },
     generate: {
         fallback: true
+    },
+    robots: {
+        UserAgent: '*',
+        Disallow: ['/Grid', '/Typo']
     },
     sitemap: {
         hostname: 'https://www.pascal-achard.me/',
