@@ -49,7 +49,8 @@ export default {
         // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
         'nuxt-purgecss',
-        '@nuxtjs/google-analytics'
+        '@nuxtjs/google-analytics',
+        '@nuxtjs/sitemap'
     ],
     purgeCSS: {},
     googleAnalytics: {
@@ -57,6 +58,13 @@ export default {
     },
     generate: {
         fallback: true
+    },
+    sitemap: {
+        hostname: 'https://www.pascal-achard.me/',
+        exclude: [
+            '/Grid',
+            '/Typo'
+        ]
     },
     /*
     ** Axios module configuration
