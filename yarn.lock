@@ -976,6 +976,11 @@
     consola "^2.5.6"
     http-proxy-middleware "^0.19.1"
 
+"@nuxtjs/robots@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-2.3.0.tgz#d75703f24e6a0338064b860016312e37922669ae"
+  integrity sha512-QqHYumLX2b9h5dMt02mw7F9JatgW/gOekxE4DLgQN8AXCjeiC7kww5sb8xyd9tw/m9tj+qgxmbvC0Xa9kFxqwA==
+
 "@nuxtjs/sitemap@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-1.2.0.tgz#6278c7a93314f1511ebb5491eb96e0f77f7d6dea"
@@ -1664,6 +1669,11 @@ binary-extensions@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+
+bindall-standalone@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/bindall-standalone/-/bindall-standalone-1.0.5.tgz#f7430388f1c7f9a9ade0fc75a400e710f6692a1d"
+  integrity sha1-90MDiPHH+amt4Px1pADnEPZpKh0=
 
 block-stream@*:
   version "0.0.9"
@@ -4606,6 +4616,11 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
+lethargy@^1.0.2:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/lethargy/-/lethargy-1.0.7.tgz#f69854a57275959b7cf514d24ae373929f7a8cb2"
+  integrity sha512-+IhiyZpw27A0KrtlfsrC1DcCgUYHqtWTqoa4CuJPyX7dmwF0b9bInWVkLrvn7yE88sEq86NxOSVtPhaVmE7C6A==
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -4648,6 +4663,13 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+locomotive-scroll@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-3.0.3.tgz#a15a4ffa55144278ecf261c4cb19d723f4e0cb38"
+  integrity sha512-8zdl5eMLco/XLLTjMTNuuIBUC7Fj2+5+ab9j3bIFFf+UzemJAG+gyRoFQGiFPXXzYRcRu63QT4rK1gajc/4OLg==
+  dependencies:
+    virtual-scroll "git+https://github.com/ayamflow/virtual-scroll.git"
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
@@ -7694,6 +7716,11 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-emitter@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-1.2.0.tgz#6dc845052cb08ebefc1874723b58f24a648c3b6f"
+  integrity sha1-bchFBSywjr78GHRyO1jySmSMO28=
+
 to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
@@ -8093,6 +8120,15 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+"virtual-scroll@git+https://github.com/ayamflow/virtual-scroll.git":
+  version "1.5.1"
+  resolved "git+https://github.com/ayamflow/virtual-scroll.git#f67fdafed927b84c33bc102078bc35bcacc79058"
+  dependencies:
+    bindall-standalone "^1.0.5"
+    lethargy "^1.0.2"
+    object-assign "^4.0.1"
+    tiny-emitter "^1.0.0"
 
 vm-browserify@^1.0.1:
   version "1.1.0"

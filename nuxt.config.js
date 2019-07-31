@@ -1,5 +1,5 @@
 export default {
-    mode: 'universal',
+    mode: 'spa',
     /*
     ** Headers of the page
     */
@@ -7,6 +7,9 @@ export default {
         // this htmlAttrs you need
         htmlAttrs: {
             lang: 'fr-fr'
+        },
+        bodyAttrs: {
+           /* id: 'js-scroll'*/
         },
         title: 'Pascal achard - SENIOR FRONTEND DEVELOPER',
         meta: [
@@ -50,14 +53,21 @@ export default {
         '@nuxtjs/axios',
         'nuxt-purgecss',
         '@nuxtjs/google-analytics',
+        '@nuxtjs/robots',
         '@nuxtjs/sitemap'
     ],
-    purgeCSS: {},
+    purgeCSS: {
+        whitelist: ['has-scroll-smooth', 'is-inview']
+    },
     googleAnalytics: {
         id: 'UA-143785757-1'
     },
     generate: {
         fallback: true
+    },
+    robots: {
+        UserAgent: '*',
+        Disallow: ['/Grid', '/Typo']
     },
     sitemap: {
         hostname: 'https://www.pascal-achard.me/',

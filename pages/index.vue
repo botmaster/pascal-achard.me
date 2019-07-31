@@ -6,11 +6,11 @@
             <div class="cover__dimmer absolute inset-0"></div>
             <div class="container mx-auto px-container md:px-container-md relative">
                 <div>
-                    <span class="text-blue-200">Hi, that's me</span>
-                    <h1 class="text-gray-100">
+                    <span data-scroll data-scroll-speed="2" data-scroll-position="top" class="text-blue-200 block">Hi, that's me</span>
+                    <h1 data-scroll data-scroll-speed="1.5" data-scroll-position="top" class="text-gray-100">
                         Pascal Achard
                     </h1>
-                    <h2 class="text-blue-200 h3">
+                    <h2 data-scroll data-scroll-speed="1" data-scroll-position="top" class="text-blue-200 h3">
                         Senior Frontend developer
                     </h2>
                 </div>
@@ -57,6 +57,10 @@
 </template>
 
 <script>
+    import locomotiveScroll from 'locomotive-scroll'
+    /*import(/!* webpackChunkName: "locomotiveScroll *!/ 'locomotive-scroll');*/
+
+
     export default {
         components: {},
         created() {
@@ -64,15 +68,53 @@
         },
         mounted() {
             // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-            let vh = window.innerHeight * 0.01
-            // Then we set the value in the --vh custom property to the root of the document
-            document.documentElement.style.setProperty('--vh', `${vh}px`)
-            // We listen to the resize event
-            window.addEventListener('resize', () => {
-                // We execute the same script as before
-                let vh = window.innerHeight * 0.01;
-                document.documentElement.style.setProperty('--vh', `${vh}px`);
-            });
+            /* let vh = window.innerHeight * 0.01
+             // Then we set the value in the --vh custom property to the root of the document
+             document.documentElement.style.setProperty('--vh', `${vh}px`)
+             // We listen to the resize event
+             window.addEventListener('resize', () => {
+                 // We execute the same script as before
+                 let vh = window.innerHeight * 0.01
+                 document.documentElement.style.setProperty('--vh', `${vh}px`)
+             })*/
+
+            console.log('process.client', process.client)
+
+            const scroll = new locomotiveScroll({
+                el: document.querySelector('#js-scroll'),
+                smooth: true,
+                getSpeed: !0,
+                getDirection: !0
+            })
+
+
+            if (process.client) {
+                /*import(/!* webpackChunkName: "loco" *!/ 'locomotive-scroll')
+                    .then((toto) => {
+                        console.log(toto)
+                        const scroll = new toto.default({
+                            el: document.querySelector('#js-scroll'),
+                            smooth: false,
+                            getSpeed: !0,
+                            getDirection: !0
+                        })
+                        console.log(scroll)
+                    })*/
+                /*let locomotiveScroll = require ('locomotive-scroll');
+                console.log(locomotiveScroll);
+                setTimeout(() => {
+                    const scroll = new locomotiveScroll.default({
+                        el: document.querySelector('#js-scroll'),
+                        smooth: true
+                    });
+                    console.log(scroll);
+                }, 2000);*/
+
+
+            }
+
+
+            //const scroll = new locomotiveScroll();
         }
     }
 </script>
@@ -101,7 +143,7 @@
         }
 
         &__dimmer {
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.4);
         }
     }
 
