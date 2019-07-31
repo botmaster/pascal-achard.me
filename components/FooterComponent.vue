@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer-component bg-black text-white py-8">
+    <footer data-scroll-section class="footer-component bg-black text-white py-8">
         <div class="container mx-auto px-container md:px-container-md">
             <div class="flex">
                 <a data-scroll href="https://github.com/botmaster" target="_blank" rel="noopener" class="social-item" aria-label="GitHub">

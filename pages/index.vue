@@ -1,8 +1,13 @@
 <template>
-    <main class="page-index">
-        <div class="section page-index__cover cover flex items-end relative py-6 md:py-32">
-            <img src="../assets/images/pascal-achard.jpg" class="cover__background absolute inset-0 w-full h-full"
-                 alt="Pascal Achard Senior Frontend developer">
+    <main data-scroll-section class="page-index">
+        <div class="section page-index__cover cover flex items-end relative overflow-hidden py-6 md:py-32">
+            <div data-scroll data-scroll-speed="0.5"
+                 class="cover__background absolute inset-0 w-full h-full">
+                <img src="../assets/images/pascal-achard.jpg"
+                     class="inset-0 w-full h-full"
+                     alt="Pascal Achard Senior Frontend developer">
+            </div>
+
             <div class="cover__dimmer absolute inset-0"></div>
             <div class="container mx-auto px-container md:px-container-md relative">
                 <div>
@@ -67,15 +72,15 @@
         },
         mounted() {
             // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-            /* let vh = window.innerHeight * 0.01
-             // Then we set the value in the --vh custom property to the root of the document
-             document.documentElement.style.setProperty('--vh', `${vh}px`)
-             // We listen to the resize event
-             window.addEventListener('resize', () => {
-                 // We execute the same script as before
-                 let vh = window.innerHeight * 0.01
-                 document.documentElement.style.setProperty('--vh', `${vh}px`)
-             })*/
+            let vh = window.innerHeight * 0.01
+            // Then we set the value in the --vh custom property to the root of the document
+            document.documentElement.style.setProperty('--vh', `${vh}px`)
+            // We listen to the resize event
+            window.addEventListener('resize', () => {
+                // We execute the same script as before
+                let vh = window.innerHeight * 0.01
+                document.documentElement.style.setProperty('--vh', `${vh}px`)
+            })
 
             console.log('process.client', process.client)
 
@@ -138,8 +143,14 @@
             /*background-size: cover;*/
             /*background-position-x: center;*/
             /*background-position-y: center;*/
+
             display: block;
-            object-fit: cover;
+
+            > img {
+                transform: scale(1.1);
+                display: block;
+                object-fit: cover;
+            }
         }
 
         &__dimmer {
