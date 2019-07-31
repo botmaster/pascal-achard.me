@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    position: relative;
     @apply .font-rubik-regular .text-gray-800 .bg-black;
 
     &.has-scroll-smooth {
