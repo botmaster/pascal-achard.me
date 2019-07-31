@@ -57,7 +57,7 @@ export default {
         '@nuxtjs/sitemap'
     ],
     purgeCSS: {
-        whitelist: ['has-scroll-smooth', 'is-inview']
+        whitelist: ['has-scroll-smooth', 'is-inview', 'scrollbar', 'scrollbar_thumb']
     },
     googleAnalytics: {
         id: 'UA-143785757-1'

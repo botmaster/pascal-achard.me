@@ -51,7 +51,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
 </template>
@@ -84,7 +83,8 @@
                 el: document.querySelector('#js-scroll'),
                 smooth: true,
                 getSpeed: !0,
-                getDirection: !0
+                getDirection: !0,
+                scrollbarClass: 'scrollbar'
             })
 
 
