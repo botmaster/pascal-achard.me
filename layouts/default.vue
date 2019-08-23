@@ -1,19 +1,17 @@
 <template>
     <div class="relative">
-        <header-component></header-component>
-        <nuxt/>
-        <footer-component></footer-component>
+        <header-component />
+        <nuxt />
+        <footer-component />
     </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
 <script>
-    import FooterComponent from '../components/FooterComponent'
-    import HeaderComponent from '../components/HeaderComponent'
+import FooterComponent from '../components/FooterComponent'
+import HeaderComponent from '../components/HeaderComponent'
 
-    export default {
-        components: { HeaderComponent, FooterComponent }
-    }
+export default {
+    components: { HeaderComponent, FooterComponent }
+}
 </script>
