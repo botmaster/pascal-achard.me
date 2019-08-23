@@ -11,7 +11,8 @@ export default {
         bodyAttrs: {
             /* id: 'js-scroll'*/
         },
-        title: 'Pascal achard - SENIOR FRONTEND DEVELOPER',
+        title:
+            'Pascal achard - SENIOR FRONTEND DEVELOPER - FULL STACK (NODE.JS/VUE.JS)',
         meta: [
             { charset: 'utf-8' },
             {
