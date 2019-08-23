@@ -14,7 +14,7 @@ html {
 
 body {
     position: relative;
-    @apply .font-rubik-regular .text-gray-800 .bg-black;
+    @apply font-rubik-regular text-gray-800 bg-black;
 
     &.has-scroll-smooth {
         overflow: hidden;
@@ -30,3 +30,4 @@ a {
         @apply .no-underline .text-blue-800;
     }
 }
+

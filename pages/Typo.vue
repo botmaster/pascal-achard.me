@@ -13,19 +13,18 @@
 </template>
 
 <script>
-  /**
-   * Created by PhpStorm.
-   * User: pascal
-   * Date: 2019-07-17
-   * Time: 12:02
-   */
-  export default {
-    name: 'typo'
-  }
+/**
+ * Created by PhpStorm.
+ * User: pascal
+ * Date: 2019-07-17
+ * Time: 12:02
+ */
+export default {
+    name: 'Typo'
+}
 </script>
 
 <style lang="scss" scoped>
-    .typo {
-
-    }
+.typo {
+}
 </style>

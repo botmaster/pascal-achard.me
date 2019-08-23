@@ -1,53 +1,66 @@
 export default {
     mode: 'spa',
     /*
-    ** Headers of the page
-    */
+     ** Headers of the page
+     */
     head: {
         // this htmlAttrs you need
         htmlAttrs: {
             lang: 'fr-fr'
         },
         bodyAttrs: {
-           /* id: 'js-scroll'*/
+            /* id: 'js-scroll'*/
         },
-        title: 'Pascal achard - SENIOR FRONTEND DEVELOPER',
+        title:
+            'Pascal achard - SENIOR FRONTEND DEVELOPER - FULL STACK (NODE.JS/VUE.JS)',
         meta: [
             { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-            { name: 'google-site-verification', content: '_ylnpIhPAnWMoDDWYnai5HYIKcjxnkqFS8yeNf75z-0' },
-            { property: 'og:image', content: 'https://www.pascal-achard.me/social-fb.jpg' },
-            { property: 'twitter:image', content: 'https://www.pascal-achard.me/social-fb.jpg' }
+            {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1'
+            },
+            {
+                hid: 'description',
+                name: 'description',
+                content: process.env.npm_package_description || ''
+            },
+            {
+                name: 'google-site-verification',
+                content: '_ylnpIhPAnWMoDDWYnai5HYIKcjxnkqFS8yeNf75z-0'
+            },
+            {
+                property: 'og:image',
+                content: 'https://www.pascal-achard.me/social-fb.jpg'
+            },
+            {
+                property: 'twitter:image',
+                content: 'https://www.pascal-achard.me/social-fb.jpg'
+            }
         ],
-        link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-        ]
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     },
     /*
-    ** Customize the progress-bar color
-    */
+     ** Customize the progress-bar color
+     */
     loading: {
-        color: '#333333'/*,
+        color:
+            '#333333' /*,
         height: '35px',
         duration: 3000,
         throttle: 0,
         continuous: true*/
     },
     /*
-    ** Global CSS
-    */
-    css: [
-        '~/assets/css/tailwind.css',
-        '~/assets/scss/main.scss'
-    ],
+     ** Global CSS
+     */
+    css: ['~/assets/css/tailwind.css', '~/assets/scss/main.scss'],
     /*
-    ** Plugins to load before mounting the App
-    */
+     ** Plugins to load before mounting the App
+     */
     plugins: [],
     /*
-    ** Nuxt.js modules
-    */
+     ** Nuxt.js modules
+     */
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
         '@nuxtjs/axios',
@@ -57,7 +70,12 @@ export default {
         '@nuxtjs/sitemap'
     ],
     purgeCSS: {
-        whitelist: ['has-scroll-smooth', 'is-inview', 'scrollbar', 'scrollbar_thumb']
+        whitelist: [
+            'has-scroll-smooth',
+            'is-inview',
+            'scrollbar',
+            'scrollbar_thumb'
+        ]
     },
     googleAnalytics: {
         id: 'UA-143785757-1'
@@ -71,19 +89,16 @@ export default {
     },
     sitemap: {
         hostname: 'https://www.pascal-achard.me/',
-        exclude: [
-            '/Grid',
-            '/Typo'
-        ]
+        exclude: ['/Grid', '/Typo']
     },
     /*
-    ** Axios module configuration
-    ** See https://axios.nuxtjs.org/options
-    */
+     ** Axios module configuration
+     ** See https://axios.nuxtjs.org/options
+     */
     axios: {},
     /*
-    ** Build configuration
-    */
+     ** Build configuration
+     */
     build: {
         analyze: true,
         extractCSS: {
@@ -95,9 +110,18 @@ export default {
             }
         },
         /*
-        ** You can extend webpack config here
-        */
+         ** You can extend webpack config here
+         */
         extend(config, ctx) {
+            // Exécuter ESLint lors de la sauvegarde
+            if (ctx.isDev && ctx.isClient) {
+                config.module.rules.push({
+                    enforce: 'pre',
+                    test: /\.(js|vue)$/,
+                    loader: 'eslint-loader',
+                    exclude: /(node_modules)/
+                })
+            }
         }
     }
 }
