@@ -25,8 +25,8 @@
                         data-scroll-speed="2"
                         data-scroll-position="top"
                         class="text-blue-200 block"
-                        >Hi, that's me</span
-                    >
+                        >Hi, that's me
+                    </span>
                     <h1
                         data-scroll
                         data-scroll-speed="1.5"
@@ -85,15 +85,15 @@
                             <a
                                 class="btn btn--black"
                                 href="mailto:pascal.achard@gmail.com"
-                                >Contactez-moi</a
-                            >
+                                >Contactez-moi
+                            </a>
                             <a
                                 class="btn btn--black ml-6"
                                 href="/CV-PascalAchard-2019.pdf"
                                 target="_blank"
                                 rel="noopener"
-                                >CV</a
-                            >
+                                >CV
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -154,25 +154,25 @@ export default {
 
         if (process.client) {
             /*import(/!* webpackChunkName: "loco" *!/ 'locomotive-scroll')
-            .then((toto) => {
-                console.log(toto)
-                const scroll = new toto.default({
-                    el: document.querySelector('#js-scroll'),
-                    smooth: false,
-                    getSpeed: !0,
-                    getDirection: !0
-                })
-                console.log(scroll)
-            })*/
-            /*let locomotiveScroll = require ('locomotive-scroll');
-        console.log(locomotiveScroll);
-        setTimeout(() => {
-            const scroll = new locomotiveScroll.default({
+        .then((toto) => {
+            console.log(toto)
+            const scroll = new toto.default({
                 el: document.querySelector('#js-scroll'),
-                smooth: true
-            });
-            console.log(scroll);
-        }, 2000);*/
+                smooth: false,
+                getSpeed: !0,
+                getDirection: !0
+            })
+            console.log(scroll)
+        })*/
+            /*let locomotiveScroll = require ('locomotive-scroll');
+    console.log(locomotiveScroll);
+    setTimeout(() => {
+        const scroll = new locomotiveScroll.default({
+            el: document.querySelector('#js-scroll'),
+            smooth: true
+        });
+        console.log(scroll);
+    }, 2000);*/
         }
 
         //const scroll = new locomotiveScroll();
