@@ -22,9 +22,9 @@
  * Time: 15:52
  */
 export default {
-    name: 'Error',
-    props: ['error']
-}
+    name: "Error",
+    props: ["error"]
+};
 </script>
 
 <style lang="scss" scoped>

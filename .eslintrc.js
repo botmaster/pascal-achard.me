@@ -1,27 +1,23 @@
 module.exports = {
     root: true,
     env: {
-        browser: true,
         node: true
     },
-    parserOptions: {
-        parser: 'babel-eslint'
-    },
+    plugins: ["prettier"],
     extends: [
-        'eslint:recommended',
-        // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-        // préférer utiliser `plugin:vue/strongly-recommended` ou `plugin:vue/recommended` pour des règles stictes.
-        'plugin:vue/recommended',
-        'plugin:prettier/recommended'
+        "eslint:recommended",
+        "plugin:vue/recommended",
+        "eslint-config-prettier",
+        "eslint-config-prettier/vue"
     ],
-    // required to lint *.vue files
-    plugins: ['vue'],
-    // add your custom rules here
     rules: {
-        semi: [2, 'never'],
-        'no-console': 'off',
-        'vue/max-attributes-per-line': 'off',
-        'vue/html-indent': 'off',
-        'prettier/prettier': ['error', { semi: false }]
+        "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
+        "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off"
+    },
+    parserOptions: {
+        parser: "babel-eslint"
+    },
+    rules: {
+        "prettier/prettier": "warn"
     }
-}
+};

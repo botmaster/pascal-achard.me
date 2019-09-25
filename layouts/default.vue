@@ -8,10 +8,10 @@
 
 <style></style>
 <script>
-import FooterComponent from '../components/FooterComponent'
-import HeaderComponent from '../components/HeaderComponent'
+import FooterComponent from "../components/FooterComponent";
+import HeaderComponent from "../components/HeaderComponent";
 
 export default {
     components: { HeaderComponent, FooterComponent }
-}
+};
 </script>
