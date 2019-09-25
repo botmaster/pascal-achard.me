@@ -16,8 +16,8 @@
  * Time: 12:05
  */
 export default {
-    name: 'HeaderComponent'
-}
+    name: "HeaderComponent"
+};
 </script>
 
 <style lang="scss" scoped>

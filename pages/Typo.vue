@@ -20,8 +20,8 @@
  * Time: 12:02
  */
 export default {
-    name: 'Typo'
-}
+    name: "Typo"
+};
 </script>
 
 <style lang="scss" scoped>

@@ -84,8 +84,8 @@
  * Time: 13:13
  */
 export default {
-    name: 'Grid'
-}
+    name: "Grid"
+};
 </script>
 
 <style lang="scss" scoped>

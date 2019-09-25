@@ -144,14 +144,14 @@
  * Time: 16:56
  */
 export default {
-    name: 'FooterComponent'
-}
+    name: "FooterComponent"
+};
 </script>
 
 <style lang="scss" scoped>
 .footer-component {
     .social-item {
-        color: theme('colors.white');
+        color: theme("colors.white");
 
         opacity: 0;
         transform: translateX(60px);
@@ -174,7 +174,7 @@ export default {
         }
 
         &:not(:first-child) {
-            margin-left: theme('spacing.6');
+            margin-left: theme("spacing.6");
         }
 
         &__icon {
