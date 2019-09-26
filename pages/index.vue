@@ -120,7 +120,7 @@
 </template>
 
 <script>
-import locomotiveScroll from "locomotive-scroll";
+//import locomotiveScroll from "locomotive-scroll";
 /*import(/!* webpackChunkName: "locomotiveScroll *!/ 'locomotive-scroll');*/
 
 export default {
@@ -140,42 +140,20 @@ export default {
 
         console.log("process.client", process.client);
 
-        const scroll = new locomotiveScroll({
-            el: document.querySelector("#js-scroll"),
-            smooth: true,
-            getSpeed: true,
-            getDirection: true,
-            scrollbarClass: "scrollbar"
-        });
-
-        scroll.on("call", (value, way, obj) => {
-            console.log(value, way, obj);
-        });
-
         if (process.client) {
-            /*import(/!* webpackChunkName: "loco" *!/ 'locomotive-scroll')
-    .then((toto) => {
-        console.log(toto)
-        const scroll = new toto.default({
-            el: document.querySelector('#js-scroll'),
-            smooth: false,
-            getSpeed: !0,
-            getDirection: !0
-        })
-        console.log(scroll)
-    })*/
-            /*let locomotiveScroll = require ('locomotive-scroll');
-console.log(locomotiveScroll);
-setTimeout(() => {
-    const scroll = new locomotiveScroll.default({
-        el: document.querySelector('#js-scroll'),
-        smooth: true
-    });
-    console.log(scroll);
-}, 2000);*/
-        }
+            let locomotiveScroll = require("locomotive-scroll");
+            const scroll = new locomotiveScroll.default({
+                el: document.querySelector("#js-scroll"),
+                smooth: true,
+                getSpeed: true,
+                getDirection: true,
+                scrollbarClass: "scrollbar"
+            });
 
-        //const scroll = new locomotiveScroll();
+            scroll.on("call", (value, way, obj) => {
+                console.log(value, way, obj);
+            });
+        }
     }
 };
 </script>
