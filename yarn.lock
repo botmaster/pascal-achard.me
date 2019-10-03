@@ -1058,10 +1058,10 @@
   resolved "https://registry.yarnpkg.com/@nuxtjs/robots/-/robots-2.4.1.tgz#46b339b5ee2874d6610f70709c4ac9f4634ed40c"
   integrity sha512-QGKs9y+zdCeKNQ8Pa5VlRLoshuipzSaNxwpP63/5lK+K0BDQXvZaND4wQ6Xw9Zpd90/rIubdqbXqSGHpb+uvGg==
 
-"@nuxtjs/sitemap@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-1.3.0.tgz#4c83a6c845fea3d57953a7df1f1d451b5b42527b"
-  integrity sha512-k+d2n0LS3ANwffj+niyaxBKJEd3EHcTo1dtGEde2PHhWFL7XJqJrvAZsxRXtKAWsRKBkceMWbGnnAlX0gr9Lfw==
+"@nuxtjs/sitemap@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-1.3.1.tgz#b41df16763f560854c0c40772c0ca870b5737dda"
+  integrity sha512-anLgftAcW5bnn/BparGuF+6xwgOO27ezEubSkkSGs80xVj7MxLqzIBBRVF5cK6pWtPKNIMSiVl5h9sD71REzfw==
   dependencies:
     async-cache "^1.1.0"
     consola "^2.10.1"
@@ -3260,20 +3260,20 @@ eslint-config-prettier@^6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-loader@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-3.0.0.tgz#fb70bc2d552a674f43f07f5e6575083e565e790d"
-  integrity sha512-rdxyQ0i9VlhwVlR6oEzrIft8WNKYSD2/cOAJ1YVH/F76gAta7Zv1Dr5xJOUyx0fAsHB5cKNz9hwlUVLMFsQlPA==
+eslint-loader@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-3.0.1.tgz#03f5693d7c2dc5b710c2bbe85ca500536dc3c852"
+  integrity sha512-opQF7tGGf793wrpBex6WP7TzcGqJ5/vpQ9nziuznYNWSw/g4dB/5M4y8h7TJP5u6R6tBIFkJheV3MJxsVbNHNg==
   dependencies:
     loader-fs-cache "^1.0.2"
     loader-utils "^1.2.3"
     object-hash "^1.3.1"
-    schema-utils "^2.1.0"
+    schema-utils "^2.2.0"
 
-eslint-plugin-prettier@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
-  integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
+eslint-plugin-prettier@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.1.tgz#507b8562410d02a03f0ddc949c616f877852f2ba"
+  integrity sha512-A+TZuHZ0KU0cnn56/9mfR7/KjUJ9QNVXUhwvRFSR7PGPe0zQR6PTkmyqg1AtUUEOzTqeRsUwyKFh0oVZKVCrtA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -5089,10 +5089,10 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-locomotive-scroll@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-3.1.5.tgz#ab0a1d80c5bfcac87763f3a57a36fcf9307dea2b"
-  integrity sha512-ePe67FZCL68kZclsPvQdGw6M9M0kJc0G8D8XZ9act2BJcvgdELIqyuwunUNAPUMJRXlEl8vdZFl8bE/FvJPGFw==
+locomotive-scroll@^3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/locomotive-scroll/-/locomotive-scroll-3.1.7.tgz#534e28de85b9eeeb94dd6b87122b146691d971e8"
+  integrity sha512-pfzL3H56hqBrdF1WuwhF2ReoZeAMPG1042BuD3GUs0309QGKt5N9up+XHNlPIvVHmMZwzvK3f7wxud4lWY6PnQ==
   dependencies:
     smoothscroll-polyfill "^0.4.4"
     virtual-scroll "git+https://github.com/ayamflow/virtual-scroll.git"
@@ -7611,6 +7611,14 @@ schema-utils@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.2.0.tgz#48a065ce219e0cacf4631473159037b2c1ae82da"
   integrity sha512-5EwsCNhfFTZvUreQhx/4vVQpJ/lnCAkgoIHLhSpp4ZirE+4hzFvdJi0FMub6hxbFVBJYSpeVVmon+2e7uEGRrA==
+  dependencies:
+    ajv "^6.10.2"
+    ajv-keywords "^3.4.1"
+
+schema-utils@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.3.0.tgz#592c836507db364139a6dea7f46563d66b688a03"
+  integrity sha512-0NWOS/em29583dLzou07qWp5xoKCnvm5NiDQ+IkI/Q8xP6rm1SMvQrmHseH0RSbBe4tM+LJ7IeZTqb/dF9dTRQ==
   dependencies:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"

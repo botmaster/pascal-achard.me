@@ -15,7 +15,7 @@
                 />
             </div>
 
-            <div class="cover__dimmer absolute inset-0" />
+            <div class="cover__dimmer absolute inset-0"></div>
             <div
                 class="container mx-auto px-container md:px-container-md relative"
             >
