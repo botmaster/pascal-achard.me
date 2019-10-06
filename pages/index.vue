@@ -109,8 +109,36 @@
                             En ce moment je suis fan de
                         </h3>
                         <p class="text-gray-800 mt-3">
-                            Vue.js, Vuex, Craftcms, Twig, tailwindcss, GraphQL,
-                            Docker, Webpack, Prettier, Nuxt.js.
+                            <a href="https://vuejs.org/" target="_blank"
+                                >Vue.js</a
+                            >, <a href="#" target="_blank">Nuxt.js</a>,
+                            <a href="https://nuxtjs.org/" target="_blank"
+                                >Vuex</a
+                            >,
+                            <a href="https://craftcms.com/" target="_blank"
+                                >Craftcms</a
+                            >,
+                            <a href="https://twig.symfony.com/" target="_blank"
+                                >Twig</a
+                            >,
+                            <a href="https://tailwindcss.com/" target="_blank"
+                                >tailwindcss</a
+                            >,
+                            <a href="https://www.docker.com/" target="_blank"
+                                >Docker</a
+                            >,
+                            <a href="https://webpack.js.org/" target="_blank"
+                                >Webpack</a
+                            >,
+                            <a href="https://prettier.io/" target="_blank"
+                                >Prettier</a
+                            >,
+                            <a href="https://www.netlify.com/" target="_blank"
+                                >Netlify</a
+                            >,
+                            <a href="https://www.heroku.com/" target="_blank"
+                                >Heroku</a
+                            >...
                         </p>
                     </div>
                 </div>
