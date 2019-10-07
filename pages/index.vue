@@ -71,10 +71,9 @@
                         <p class="text-lg mt-3 text-gray-800">
                             Mes journées professionnelles s'articulent
                             principalement dans la conception et la réalisation
-                            réalisation de sites internet conçus avec des
-                            framework javascript (Vue.js) connectés avec des
-                            solutions back-end (Craftcms, Symfony, Headless,
-                            ...).
+                            de sites internet conçus avec des framework
+                            javascript (Vue.js) connectés avec des solutions
+                            back-end (Craftcms, Symfony, Headless, ...).
                         </p>
                         <p class="text-lg mt-3 text-gray-800">
                             J'adore apprendre des nouvelles technologies,
