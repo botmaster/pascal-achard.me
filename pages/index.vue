@@ -108,34 +108,67 @@
                             En ce moment je suis fan de
                         </h3>
                         <p class="text-gray-800 mt-3">
-                            <a href="https://vuejs.org/" target="_blank"
+                            <a
+                                href="https://vuejs.org/"
+                                target="_blank"
+                                rel="noopener"
                                 >Vue.js</a
-                            >, <a href="#" target="_blank">Nuxt.js</a>,
-                            <a href="https://nuxtjs.org/" target="_blank"
+                            >,
+                            <a href="#" target="_blank" rel="noopener"
+                                >Nuxt.js</a
+                            >,
+                            <a
+                                href="https://nuxtjs.org/"
+                                target="_blank"
+                                rel="noopener"
                                 >Vuex</a
                             >,
-                            <a href="https://craftcms.com/" target="_blank"
+                            <a
+                                href="https://craftcms.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >Craftcms</a
                             >,
-                            <a href="https://twig.symfony.com/" target="_blank"
+                            <a
+                                href="https://twig.symfony.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >Twig</a
                             >,
-                            <a href="https://tailwindcss.com/" target="_blank"
+                            <a
+                                href="https://tailwindcss.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >tailwindcss</a
                             >,
-                            <a href="https://www.docker.com/" target="_blank"
+                            <a
+                                href="https://www.docker.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >Docker</a
                             >,
-                            <a href="https://webpack.js.org/" target="_blank"
+                            <a
+                                href="https://webpack.js.org/"
+                                target="_blank"
+                                rel="noopener"
                                 >Webpack</a
                             >,
-                            <a href="https://prettier.io/" target="_blank"
+                            <a
+                                href="https://prettier.io/"
+                                target="_blank"
+                                rel="noopener"
                                 >Prettier</a
                             >,
-                            <a href="https://www.netlify.com/" target="_blank"
+                            <a
+                                href="https://www.netlify.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >Netlify</a
                             >,
-                            <a href="https://www.heroku.com/" target="_blank"
+                            <a
+                                href="https://www.heroku.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >Heroku</a
                             >...
                         </p>

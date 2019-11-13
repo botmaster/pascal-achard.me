@@ -94,6 +94,11 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [],
+
+    /**
+     * Nuxt.js buld modules
+     */
+    buildModules: ["@nuxtjs/google-analytics"],
     /*
      ** Nuxt.js modules
      */
@@ -101,7 +106,7 @@ export default {
         // Doc: https://axios.nuxtjs.org/usage
         "@nuxtjs/axios",
         "nuxt-purgecss",
-        "@nuxtjs/google-analytics",
+        //"@nuxtjs/google-analytics",
         "@nuxtjs/robots",
         "@nuxtjs/sitemap"
     ],
@@ -114,7 +119,10 @@ export default {
         ]
     },
     googleAnalytics: {
-        id: "UA-143785757-1"
+        id: "UA-143785757-1",
+        debug: {
+            sendHitTask: process.env.NODE_ENV === "production"
+        }
     },
     generate: {
         fallback: true
@@ -139,7 +147,7 @@ export default {
      ** Build configuration
      */
     build: {
-        analyze: true,
+        analyze: false,
         extractCSS: {
             spitChunks: true
         },
