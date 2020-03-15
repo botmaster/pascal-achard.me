@@ -54,7 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="page-index__about about bg-white py-16 md:py-24">
+        <div class="page-index__content bg-white py-16 md:py-24">
             <div class="container mx-auto px-container md:px-container-md">
                 <div class="-mx-gutter md:-mx-gutter-md flex">
                     <div class="md:w-8/12 px-gutter md:px-gutter-md">
@@ -94,17 +94,13 @@
                                 >CV
                             </a>
                         </p>
-                    </div>
-                </div>
-                <div
-                    data-scroll
-                    data-scroll-call="tutu"
-                    data-scroll-repeat="true"
-                    data-scroll-offset="150, 0"
-                    class="-mx-gutter md:-mx-gutter-md flex"
-                >
-                    <div class="md:w-8/12 px-gutter md:px-gutter-md">
-                        <h3 class="h4 text-gray-900 mt-16">
+                        <h3
+                            data-scroll=""
+                            data-scroll-call="tutu"
+                            data-scroll-repeat="true"
+                            data-scroll-offset="150, 0"
+                            class="h4 text-gray-900 mt-16"
+                        >
                             En ce moment je suis fan de
                         </h3>
                         <p class="text-gray-800 mt-3">
@@ -140,7 +136,7 @@
                                 target="_blank"
                                 rel="noopener"
                                 >tailwindcss</a
-                            >,
+                            >
                             <a
                                 href="https://www.docker.com/"
                                 target="_blank"
@@ -171,6 +167,42 @@
                                 rel="noopener"
                                 >Heroku</a
                             >...
+                        </p>
+                        <h3 class="h4 text-gray-900 mt-16">
+                            Dernière epxérimentation
+                        </h3>
+                        <p class="text-gray-800 mt-3">
+                            <a
+                                href="https://pascal-is-listening.herokuapp.com/"
+                                rel="noopener"
+                                target="_blank"
+                                >https://pascal-is-listening.herokuapp.com/</a
+                            >
+                        </p>
+                        <p class="text-gray-800 mt-3">
+                            Application web musicale du type "x is listening"
+                            qui affiche ce qu'une personne est en train
+                            d'écouter sur Spotify.
+                        </p>
+                        <p class="text-gray-800 mt-3">
+                            Projet construit à l'aide des écosystèmes Node.js et
+                            npm, Github pour stocker le code, Heroku en tant
+                            qu'hôte, Heroku's Redis pour mettre en cache les
+                            reponses de l'API Spotify. L'application et l'API
+                            interne sont entièrement construits à l'aide du
+                            système Nuxt. Nuxt est un framework js basé sur
+                            Vue.js qui permet de faire du rendu côté serveur.
+                        </p>
+                        <p class="text-gray-800 mt-3">
+                            Ce projet m'a permis de mettre en pratique Redis
+                            dont je ne connaissais que la théorie. L'api de
+                            Spotifiy est très bien faite et particulièrement
+                            bien documentée. Nuxt.js m'a permis de capitaliser
+                            mon savoir faire en Vue.js et de construire
+                            rapidement une application rendue côté serveur. La
+                            plateforme Heroku est très utile et simple à
+                            utiliser. Elle ressemble beaucoup à Netlify en plus
+                            riche.
                         </p>
                     </div>
                 </div>
@@ -223,6 +255,10 @@ export default {
     &__cover {
         //
     }
+
+    &__content {
+        //
+    }
 }
 
 .cover {
@@ -232,11 +268,6 @@ export default {
     transition: all 1s;
 
     &__background {
-        /*background-image: url("~assets/images/pascal-achard.jpg");*/
-        /*background-size: cover;*/
-        /*background-position-x: center;*/
-        /*background-position-y: center;*/
-
         display: block;
 
         > img {
@@ -249,9 +280,5 @@ export default {
     &__dimmer {
         background-color: rgba(0, 0, 0, 0.4);
     }
-}
-
-.about {
-    //
 }
 </style>

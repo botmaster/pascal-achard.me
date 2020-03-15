@@ -4,8 +4,8 @@
         class="footer-component bg-black text-white py-8"
     >
         <div class="container mx-auto px-container md:px-container-md">
-            <div class="flex justify-between">
-                <div class="flex">
+            <div class="md:flex justify-between">
+                <div class="flex mb-6 md:mb-0">
                     <a
                         data-scroll
                         href="https://github.com/botmaster"
