@@ -1,4 +1,4 @@
-export default function({ store }) {
+export default function ({ store }) {
     console.log("process.server ", process.server);
     console.log("process.static ", process.static);
     if (store.state.rss === process.server && !process.static) {
