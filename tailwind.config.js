@@ -18,6 +18,9 @@ module.exports = {
                 "container-md": "30px",
                 gutter: "15px",
                 "gutter-md": "15px"
+            },
+            colors: {
+                "red-oneplus": "#f50514"
             }
         }
     },
