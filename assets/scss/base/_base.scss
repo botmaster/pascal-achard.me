@@ -24,10 +24,10 @@ body {
 
 // Liens
 a {
-    @apply .no-underline .text-blue-500;
+    @apply .text-black .underline;
 
     &:hover, &:focus {
-        @apply .no-underline .text-blue-800;
+        @apply .no-underline .text-red-oneplus;
     }
 }
 

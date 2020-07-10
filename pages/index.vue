@@ -20,18 +20,19 @@
                 class="container mx-auto px-container md:px-container-md relative"
             >
                 <div>
-                    <span
+                    <p
                         data-scroll
-                        data-scroll-speed="2"
+                        data-scroll-speed="2.2"
                         data-scroll-position="top"
-                        class="text-blue-200 block"
-                        >Hi, that's me
-                    </span>
+                        class="text-white block"
+                    >
+                        Hi, that's me
+                    </p>
                     <h1
                         data-scroll
                         data-scroll-speed="1.5"
                         data-scroll-position="top"
-                        class="text-gray-100"
+                        class="text-white"
                     >
                         Pascal Achard
                     </h1>
@@ -39,18 +40,18 @@
                         data-scroll
                         data-scroll-speed="1"
                         data-scroll-position="top"
-                        class="text-blue-200 h3"
+                        class="text-white h3"
                     >
                         Senior Frontend developer
                     </h2>
-                    <h2
+                    <p
                         data-scroll
-                        data-scroll-speed="0.5"
+                        data-scroll-speed="0.8"
                         data-scroll-position="top"
-                        class="text-gray-200 text-sm mt-0 md:mt-2"
+                        class="text-white mt-0"
                     >
                         Full Stack (node.js/vue.js)
-                    </h2>
+                    </p>
                 </div>
             </div>
         </div>
@@ -136,7 +137,7 @@
                                 target="_blank"
                                 rel="noopener"
                                 >tailwindcss</a
-                            >
+                            >,
                             <a
                                 href="https://www.docker.com/"
                                 target="_blank"

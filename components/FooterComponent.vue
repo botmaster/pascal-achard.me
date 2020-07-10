@@ -133,7 +133,7 @@
                         </div>
                     </a>
                 </div>
-                <nuxt-renderer :ssr="$store.state.ssr"></nuxt-renderer>
+                <!--                <nuxt-renderer :ssr="$store.state.ssr"></nuxt-renderer>-->
             </div>
         </div>
     </footer>
@@ -147,13 +147,11 @@
  * Time: 16:56
  */
 
-import NuxtRenderer from "@/components/NuxtRenderer.vue";
+// import NuxtRenderer from "@/components/NuxtRenderer.vue";
 
 export default {
     name: "FooterComponent",
-    components: {
-        NuxtRenderer
-    }
+    components: {}
 };
 </script>
 
@@ -166,6 +164,10 @@ export default {
         transform: translateX(60px);
         transition: opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1),
             transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+        &:hover {
+            color: theme("colors.red-oneplus");
+        }
 
         &.is-inview {
             transform: none;
