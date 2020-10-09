@@ -89,7 +89,7 @@
                             </a>
                             <a
                                 class="btn btn--black ml-6"
-                                href="/CV-PascalAchard-2019.pdf"
+                                href="/CV-PascalAchard-2020.pdf"
                                 target="_blank"
                                 rel="noopener"
                                 >CV
