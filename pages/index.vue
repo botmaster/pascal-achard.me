@@ -9,6 +9,8 @@
                 class="cover__background absolute inset-0 w-full h-full"
             >
                 <img
+                    width="1920"
+                    height="1280"
                     src="../assets/images/pascal-achard.jpg"
                     class="inset-0 w-full h-full"
                     alt="Pascal Achard Senior Frontend developer"
