@@ -59,9 +59,7 @@
             <div class="container mx-auto px-container md:px-container-md">
                 <div class="-mx-gutter md:-mx-gutter-md flex">
                     <div class="md:w-8/12 px-gutter md:px-gutter-md">
-                        <h3 class="h4 text-gray-900">
-                            À propos de moi
-                        </h3>
+                        <h3 class="h4 text-gray-900">À propos de moi</h3>
                         <p class="text-lg mt-6 text-gray-800">
                             Je suis développeur front-end sénior depuis 3 ans
                             mais j'ai 20 ans d'expérience dans la création de

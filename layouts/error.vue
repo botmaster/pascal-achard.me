@@ -4,12 +4,8 @@
             <h1 v-if="error.statusCode === 404" class="text-white">
                 Page non trouvée
             </h1>
-            <h1 v-else class="text-white">
-                Une erreur s'est produite
-            </h1>
-            <nuxt-link class="" to="/">
-                Accueil
-            </nuxt-link>
+            <h1 v-else class="text-white">Une erreur s'est produite</h1>
+            <nuxt-link class="" to="/"> Accueil </nuxt-link>
         </div>
     </div>
 </template>
