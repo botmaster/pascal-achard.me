@@ -1,6 +1,5 @@
 // See default config https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 module.exports = {
-    purge: false,
     theme: {
         extend: {
             fontFamily: {
@@ -24,5 +23,9 @@ module.exports = {
             }
         }
     },
-    variants: {}
+    variants: {},
+    purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
+    future: {
+        purgeLayersByDefault: true
+    }
 };

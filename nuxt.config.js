@@ -105,19 +105,9 @@ export default {
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
         "@nuxtjs/axios",
-        "nuxt-purgecss",
-        //"@nuxtjs/google-analytics",
         "@nuxtjs/robots",
         "@nuxtjs/sitemap"
     ],
-    purgeCSS: {
-        whitelist: [
-            "has-scroll-smooth",
-            "is-inview",
-            "scrollbar",
-            "scrollbar_thumb"
-        ]
-    },
     googleAnalytics: {
         id: "UA-143785757-1",
         debug: {
