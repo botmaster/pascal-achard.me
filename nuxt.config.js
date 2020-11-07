@@ -119,9 +119,6 @@ export default {
         hostname: "https://www.pascal-achard.me/",
         exclude: ["/Grid", "/Typo"]
     },
-    router: {
-        middleware: "nuxtRenderer"
-    },
     /*
      ** Axios module configuration
      ** See https://axios.nuxtjs.org/options

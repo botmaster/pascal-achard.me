@@ -160,8 +160,8 @@ export default {
     .social-item {
         color: theme("colors.white");
 
-        opacity: 0;
-        transform: translateX(60px);
+        //opacity: 0;
+        //transform: translateX(60px);
         transition: opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1),
             transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 
