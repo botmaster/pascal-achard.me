@@ -1,17 +1,17 @@
 <template>
     <footer
-        data-scroll-section
+        v-observe-visibility="visibilityChanged"
         class="footer-component bg-black text-white py-8"
     >
         <div class="container mx-auto px-container md:px-container-md">
             <div class="md:flex justify-between">
                 <div class="flex mb-6 md:mb-0">
                     <a
-                        data-scroll
                         href="https://github.com/botmaster"
                         target="_blank"
                         rel="noopener"
                         class="social-item"
+                        :class="{ 'is-inview': isVisible }"
                         aria-label="GitHub"
                     >
                         <div class="social-item__icon">
@@ -28,11 +28,11 @@
                         </div>
                     </a>
                     <a
-                        data-scroll
                         href="http://www.linkedin.com/in/pascal-achard"
                         target="_blank"
                         rel="noopener"
                         class="social-item"
+                        :class="{ 'is-inview': isVisible }"
                         aria-label="LinkedIn"
                     >
                         <div class="social-item__icon">
@@ -49,11 +49,11 @@
                         </div>
                     </a>
                     <a
-                        data-scroll
                         href="https://codepen.io/botmaster/"
                         target="_blank"
                         rel="noopener"
                         class="social-item"
+                        :class="{ 'is-inview': isVisible }"
                         aria-label="CodePen"
                     >
                         <div class="social-item__icon">
@@ -70,11 +70,11 @@
                         </div>
                     </a>
                     <a
-                        data-scroll
                         href="https://www.instagram.com/botmaster/"
                         target="_blank"
                         rel="noopener"
                         class="social-item"
+                        :class="{ 'is-inview': isVisible }"
                         aria-label="Instagram"
                     >
                         <div class="social-item__icon">
@@ -91,11 +91,11 @@
                         </div>
                     </a>
                     <a
-                        data-scroll
                         href="https://twitter.com/botmaster"
                         target="_blank"
                         rel="noopener"
                         class="social-item"
+                        :class="{ 'is-inview': isVisible }"
                         aria-label="Twitter"
                     >
                         <div class="social-item__icon">
@@ -112,11 +112,11 @@
                         </div>
                     </a>
                     <a
-                        data-scroll
                         href="https://www.last.fm/user/botmaster"
                         target="_blank"
                         rel="noopener"
                         class="social-item"
+                        :class="{ 'is-inview': isVisible }"
                         aria-label="Last.fm"
                     >
                         <div class="social-item__icon">
@@ -151,7 +151,18 @@
 
 export default {
     name: "FooterComponent",
-    components: {}
+    components: {},
+    data() {
+        return {
+            isVisible: false
+        };
+    },
+    methods: {
+        visibilityChanged(isVisible, entry) {
+            this.isVisible = isVisible;
+            // console.log(entry);
+        }
+    }
 };
 </script>
 

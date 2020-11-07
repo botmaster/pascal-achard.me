@@ -93,7 +93,7 @@ export default {
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: [],
+    plugins: [{ src: "~/plugins/observe-visibility.client", ssr: false }],
 
     /**
      * Nuxt.js buld modules
@@ -118,9 +118,6 @@ export default {
     sitemap: {
         hostname: "https://www.pascal-achard.me/",
         exclude: ["/Grid", "/Typo"]
-    },
-    router: {
-        middleware: "nuxtRenderer"
     },
     /*
      ** Axios module configuration
