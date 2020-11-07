@@ -9,7 +9,7 @@ export default {
             lang: "fr-fr"
         },
         bodyAttrs: {
-            /* id: 'js-scroll'*/
+            /* id: 'js-scroll' */
         },
         title:
             "Pascal achard - SENIOR FRONTEND DEVELOPER - FULL STACK (NODE.JS/VUE.JS)",
@@ -84,7 +84,7 @@ export default {
         height: '35px',
         duration: 3000,
         throttle: 0,
-        continuous: true*/
+        continuous: true */
     },
     /*
      ** Global CSS
@@ -98,11 +98,7 @@ export default {
     /**
      * Nuxt.js buld modules
      */
-    buildModules: [
-        "@nuxtjs/google-analytics",
-        "@nuxtjs/eslint-module",
-        "@nuxtjs/tailwindcss"
-    ],
+    buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
     /*
      ** Nuxt.js modules
      */
@@ -112,12 +108,6 @@ export default {
         "@nuxtjs/robots",
         "@nuxtjs/sitemap"
     ],
-    googleAnalytics: {
-        id: "UA-143785757-1",
-        debug: {
-            sendHitTask: process.env.NODE_ENV === "production"
-        }
-    },
     generate: {
         fallback: true
     },
