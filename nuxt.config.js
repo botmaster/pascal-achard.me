@@ -93,7 +93,7 @@ export default {
     /*
      ** Plugins to load before mounting the App
      */
-    plugins: [],
+    plugins: [{ src: "~/plugins/observe-visibility.client", ssr: false }],
 
     /**
      * Nuxt.js buld modules
