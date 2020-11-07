@@ -98,26 +98,20 @@ export default {
     /**
      * Nuxt.js buld modules
      */
-    buildModules: ["@nuxtjs/google-analytics"],
+    buildModules: [
+        "@nuxtjs/google-analytics",
+        "@nuxtjs/eslint-module",
+        "@nuxtjs/tailwindcss"
+    ],
     /*
      ** Nuxt.js modules
      */
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
         "@nuxtjs/axios",
-        "nuxt-purgecss",
-        //"@nuxtjs/google-analytics",
         "@nuxtjs/robots",
         "@nuxtjs/sitemap"
     ],
-    purgeCSS: {
-        whitelist: [
-            "has-scroll-smooth",
-            "is-inview",
-            "scrollbar",
-            "scrollbar_thumb"
-        ]
-    },
     googleAnalytics: {
         id: "UA-143785757-1",
         debug: {
@@ -148,27 +142,10 @@ export default {
      */
     build: {
         analyze: false,
-        extractCSS: {
-            spitChunks: true
-        },
-        postcss: {
-            plugins: {
-                tailwindcss: "./tailwind.config.js"
-            }
-        },
+        extractCSS: true,
         /*
          ** You can extend webpack config here
          */
-        extend(config, ctx) {
-            // Exécuter ESLint lors de la sauvegarde
-            if (ctx.isDev && ctx.isClient) {
-                config.module.rules.push({
-                    enforce: "pre",
-                    test: /\.(js|vue)$/,
-                    loader: "eslint-loader",
-                    exclude: /(node_modules)/
-                });
-            }
-        }
+        extend() {}
     }
 };
