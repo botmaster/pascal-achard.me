@@ -213,28 +213,31 @@
 </template>
 
 <script>
-//import locomotiveScroll from "locomotive-scroll";
-/*import(/!* webpackChunkName: "locomotiveScroll *!/ 'locomotive-scroll');*/
+// import locomotiveScroll from "locomotive-scroll";
+/* import(/!* webpackChunkName: "locomotiveScroll *!/ 'locomotive-scroll'); */
 
 export default {
     components: {},
     created() {},
     mounted() {
         // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-        let vh = window.innerHeight * 0.01;
+        const vh = window.innerHeight * 0.01;
         // Then we set the value in the --vh custom property to the root of the document
         document.documentElement.style.setProperty("--vh", `${vh}px`);
         // We listen to the resize event
         window.addEventListener("resize", () => {
             // We execute the same script as before
-            let vh = window.innerHeight * 0.01;
+            const vh = window.innerHeight * 0.01;
             document.documentElement.style.setProperty("--vh", `${vh}px`);
         });
 
+        // eslint-disable-next-line nuxt/no-env-in-hooks
         console.log("process.client", process.client);
 
+        // eslint-disable-next-line nuxt/no-env-in-hooks
         if (process.client) {
-            let locomotiveScroll = require("locomotive-scroll");
+            const locomotiveScroll = require("locomotive-scroll");
+            // eslint-disable-next-line new-cap
             const scroll = new locomotiveScroll.default({
                 el: document.querySelector("#js-scroll"),
                 smooth: true,
