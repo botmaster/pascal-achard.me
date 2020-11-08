@@ -11,11 +11,12 @@
     @apply font-rubik-medium .text-sm py-3 px-5 rounded text-center inline-block;
 
     &--black {
-        @apply bg-transparent text-black border border-black;
-        transition: color 0.4s, border-color 0.4s;
+        @apply bg-black text-white border border-black;;
+        // @apply bg-transparent text-black border border-black;
+        transition: background-color 0.4s, border-color 0.4s;
 
         &:hover {
-            @apply bg-black text-white border border-black;
+            @apply bg-transparent border border-black;
         }
     }
 
