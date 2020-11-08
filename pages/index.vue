@@ -1,61 +1,7 @@
 <template>
     <main class="page-index">
-        <div
-            class="section page-index__cover cover flex items-end relative overflow-hidden py-6 md:py-32"
-        >
-            <div
-                data-scroll
-                data-scroll-speed="0.5"
-                class="cover__background absolute inset-0 w-full h-full"
-            >
-                <img
-                    width="1920"
-                    height="1280"
-                    src="../assets/images/pascal-achard.jpg"
-                    class="inset-0 w-full h-full"
-                    alt="Pascal Achard Senior Frontend developer"
-                />
-            </div>
-
-            <div class="cover__dimmer absolute inset-0"></div>
-            <div
-                class="container mx-auto px-container md:px-container-md relative"
-            >
-                <div>
-                    <p
-                        data-scroll
-                        data-scroll-speed="2.2"
-                        data-scroll-position="top"
-                        class="text-white block"
-                    >
-                        Hi, that's me
-                    </p>
-                    <h1
-                        data-scroll
-                        data-scroll-speed="1.5"
-                        data-scroll-position="top"
-                        class="text-white"
-                    >
-                        Pascal Achard
-                    </h1>
-                    <h2
-                        data-scroll
-                        data-scroll-speed="1"
-                        data-scroll-position="top"
-                        class="text-white h3"
-                    >
-                        Senior Frontend developer
-                    </h2>
-                    <p
-                        data-scroll
-                        data-scroll-speed="0.8"
-                        data-scroll-position="top"
-                        class="text-white mt-0"
-                    >
-                        Full Stack (node.js/vue.js)
-                    </p>
-                </div>
-            </div>
+        <div class="page-index__cover">
+            <cover-component></cover-component>
         </div>
         <div class="page-index__content py-16 md:py-24">
             <div class="container mx-auto px-container md:px-container-md">
@@ -95,15 +41,7 @@
                                 >CV
                             </a>
                         </p>
-                        <h3
-                            data-scroll=""
-                            data-scroll-call="tutu"
-                            data-scroll-repeat="true"
-                            data-scroll-offset="150, 0"
-                            class="h4 mt-16"
-                        >
-                            En ce moment je suis fan de
-                        </h3>
+                        <h3 class="h4 mt-16">En ce moment je suis fan de</h3>
                         <p class="mt-3">
                             <a
                                 href="https://vuejs.org/"
@@ -211,8 +149,9 @@
 </template>
 
 <script>
+import CoverComponent from "@/components/CoverComponent";
 export default {
-    components: {},
+    components: { CoverComponent },
     created() {},
     mounted() {
         this.resizeHandler();
@@ -236,33 +175,21 @@ export default {
 <style lang="scss">
 .page-index {
     &__cover {
-        //
+        transition: all 1s;
+
+        // https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
+        min-height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        min-height: calc(var(--vh, 1vh) * 100);
+
+        @apply flex flex-col;
+
+        > * {
+            flex-grow: 1;
+        }
     }
 
     &__content {
         //
-    }
-}
-
-.cover {
-    // https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
-    min-height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
-    min-height: calc(var(--vh, 1vh) * 100);
-
-    transition: all 1s;
-
-    &__background {
-        display: block;
-
-        > img {
-            transform: scale(1.1);
-            display: block;
-            object-fit: cover;
-        }
-    }
-
-    &__dimmer {
-        background-color: rgba(0, 0, 0, 0.4);
     }
 }
 </style>
