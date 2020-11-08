@@ -29,12 +29,12 @@
                         </p>
                         <p class="mt-6 flex">
                             <a
-                                class="btn btn--black"
+                                class="btn btn--ghost"
                                 href="mailto:pascal.achard@gmail.com"
                                 >Contactez-moi
                             </a>
                             <a
-                                class="btn btn--black ml-6"
+                                class="btn btn--ghost ml-6"
                                 href="/CV-PascalAchard-2020.pdf"
                                 target="_blank"
                                 rel="noopener"
