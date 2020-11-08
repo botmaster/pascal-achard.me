@@ -134,5 +134,8 @@ export default {
          ** You can extend webpack config here
          */
         extend() {}
+    },
+    server: {
+        host: "0.0.0.0" // par défaut : localhost
     }
 };
