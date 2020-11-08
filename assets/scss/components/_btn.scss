@@ -25,7 +25,7 @@
         transition: color 0.4s, border-color 0.4s;
 
         &:hover {
-            @apply bg-black text-white border-black;
+            @apply border-gray-500 text-white;
         }
     }
 

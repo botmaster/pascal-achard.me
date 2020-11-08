@@ -176,10 +176,6 @@ export default {
         transition: opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1),
             transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 
-        &:hover {
-            color: theme("colors.red-oneplus");
-        }
-
         &.is-inview {
             transform: none;
             opacity: 1;
