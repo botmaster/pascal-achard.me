@@ -1,5 +1,5 @@
 <template>
-    <main data-scroll-section class="page-index">
+    <main class="page-index">
         <div
             class="section page-index__cover cover flex items-end relative overflow-hidden py-6 md:py-32"
         >
@@ -57,26 +57,26 @@
                 </div>
             </div>
         </div>
-        <div class="page-index__content bg-white py-16 md:py-24">
+        <div class="page-index__content py-16 md:py-24">
             <div class="container mx-auto px-container md:px-container-md">
                 <div class="-mx-gutter md:-mx-gutter-md flex">
                     <div class="md:w-8/12 px-gutter md:px-gutter-md">
-                        <h3 class="h4 text-gray-900">À propos de moi</h3>
-                        <p class="text-lg mt-6 text-gray-800">
+                        <h3 class="h4">À propos de moi</h3>
+                        <p class="text-lg mt-6">
                             Je suis développeur front-end sénior depuis 3 ans
                             mais j'ai 20 ans d'expérience dans la création de
                             sites Web et d'applications Web. Je me suis
                             spécialisé dans le JavaScript et notamment avec le
                             framework Vuejs.
                         </p>
-                        <p class="text-lg mt-3 text-gray-800">
+                        <p class="text-lg mt-3">
                             Mes journées professionnelles s'articulent
                             principalement dans la conception et la réalisation
                             de sites internet conçus avec des framework
                             javascript (Vue.js) connectés avec des solutions
                             back-end (Craftcms, Symfony, Headless, ...).
                         </p>
-                        <p class="text-lg mt-3 text-gray-800">
+                        <p class="text-lg mt-3">
                             J'adore apprendre des nouvelles technologies,
                             techniques, méthodes et mettre à profit mon mon
                             expérience avec mes collègues de travail.
@@ -100,11 +100,11 @@
                             data-scroll-call="tutu"
                             data-scroll-repeat="true"
                             data-scroll-offset="150, 0"
-                            class="h4 text-gray-900 mt-16"
+                            class="h4 mt-16"
                         >
                             En ce moment je suis fan de
                         </h3>
-                        <p class="text-gray-800 mt-3">
+                        <p class="mt-3">
                             <a
                                 href="https://vuejs.org/"
                                 target="_blank"
@@ -169,10 +169,8 @@
                                 >Heroku</a
                             >...
                         </p>
-                        <h3 class="h4 text-gray-900 mt-16">
-                            Dernière epxérimentation
-                        </h3>
-                        <p class="text-gray-800 mt-3">
+                        <h3 class="h4 mt-16">Dernière epxérimentation</h3>
+                        <p class="mt-3">
                             <a
                                 href="https://pascal-is-listening.herokuapp.com/"
                                 rel="noopener"
@@ -180,12 +178,12 @@
                                 >https://pascal-is-listening.herokuapp.com/</a
                             >
                         </p>
-                        <p class="text-gray-800 mt-3">
+                        <p class="mt-3">
                             Application web musicale du type "x is listening"
                             qui affiche ce qu'une personne est en train
                             d'écouter sur Spotify.
                         </p>
-                        <p class="text-gray-800 mt-3">
+                        <p class="mt-3">
                             Projet construit à l'aide des écosystèmes Node.js et
                             npm, Github pour stocker le code, Heroku en tant
                             qu'hôte, Heroku's Redis pour mettre en cache les
@@ -194,7 +192,7 @@
                             système Nuxt. Nuxt est un framework js basé sur
                             Vue.js qui permet de faire du rendu côté serveur.
                         </p>
-                        <p class="text-gray-800 mt-3">
+                        <p class="mt-3">
                             Ce projet m'a permis de mettre en pratique Redis
                             dont je ne connaissais que la théorie. L'api de
                             Spotifiy est très bien faite et particulièrement
