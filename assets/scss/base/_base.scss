@@ -7,18 +7,12 @@
 //
 
 html {
-    &.has-scroll-smooth {
-        overflow: hidden;
-    }
+    //
 }
 
 body {
     position: relative;
     @apply font-rubik-regular text-gray-500 bg-gray-950;
-
-    &.has-scroll-smooth {
-        overflow: hidden;
-    }
 }
 
 
