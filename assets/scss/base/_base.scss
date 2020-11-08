@@ -14,7 +14,7 @@ html {
 
 body {
     position: relative;
-    @apply font-rubik-regular text-gray-800 bg-black;
+    @apply font-rubik-regular text-gray-500 bg-gray-950;
 
     &.has-scroll-smooth {
         overflow: hidden;
@@ -24,10 +24,10 @@ body {
 
 // Liens
 a {
-    @apply .text-black .underline;
+    @apply .text-gray-200 .underline;
 
     &:hover, &:focus {
-        @apply .no-underline .text-red-oneplus;
+        @apply .no-underline;
     }
 }
 
