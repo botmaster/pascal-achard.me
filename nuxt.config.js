@@ -12,7 +12,7 @@ export default {
             /* id: 'js-scroll' */
         },
         title:
-            "Pascal achard - SENIOR FRONTEND DEVELOPER - FULL STACK (NODE.JS/VUE.JS)",
+            "Pascal Achard - SENIOR FRONTEND DEVELOPER - FULL STACK (NODE.JS/VUE.JS)",
         meta: [
             { charset: "utf-8" },
             {
