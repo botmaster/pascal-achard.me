@@ -168,39 +168,46 @@ export default {
 
 <style lang="scss" scoped>
 .footer-component {
-    .social-item {
-        color: theme("colors.white");
+    //
+}
+.social-item {
+    $self: &;
+    //color: theme("colors.white");
+
+    &:hover {
+        transition-delay: 0s;
+    }
+
+    &.is-inview {
+        #{$self}__icon {
+            transform: none;
+            opacity: 1;
+        }
+
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}) {
+                #{$self}__icon {
+                    transition-delay: $i * 0.1s;
+                }
+            }
+        }
+    }
+
+    &:not(:first-child) {
+        margin-left: theme("spacing.6");
+    }
+
+    &__icon {
+        width: 24px;
+        height: 24px;
 
         opacity: 0;
         transform: translateX(60px);
         transition: opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1),
             transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 
-        &.is-inview {
-            transform: none;
-            opacity: 1;
-
-            &:nth-child(2) {
-                transition-delay: 2s;
-            }
-
-            @for $i from 1 through 6 {
-                &:nth-child(#{$i}) {
-                    transition-delay: $i * 0.1s;
-                }
-            }
-        }
-
-        &:not(:first-child) {
-            margin-left: theme("spacing.6");
-        }
-
-        &__icon {
-            width: 24px;
-            height: 24px;
-            svg {
-                fill: currentColor;
-            }
+        svg {
+            fill: currentColor;
         }
     }
 }
