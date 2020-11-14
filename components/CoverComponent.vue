@@ -15,7 +15,7 @@
 
         <div
             :style="{
-                opacity: 1 - scrollPercent
+                opacity: 1 - scrollPercent * 0.6
             }"
             class="cover__dimmer absolute inset-0"
         ></div>
@@ -23,7 +23,8 @@
             <div>
                 <p
                     :style="{
-                        transform: `translateY(-${0.36 * scrollPosition}px)`
+                        transform: `translateY(-${0.36 * scrollPosition}px)`,
+                        opacity: 1 - scrollPercent * 1.9
                     }"
                     class="text-white block"
                 >
@@ -31,7 +32,8 @@
                 </p>
                 <h1
                     :style="{
-                        transform: `translateY(-${0.26 * scrollPosition}px)`
+                        transform: `translateY(-${0.26 * scrollPosition}px)`,
+                        opacity: 1 - scrollPercent * 1.7
                     }"
                     class="text-white"
                 >
@@ -39,7 +41,8 @@
                 </h1>
                 <h2
                     :style="{
-                        transform: `translateY(-${0.18 * scrollPosition}px)`
+                        transform: `translateY(-${0.18 * scrollPosition}px)`,
+                        opacity: 1 - scrollPercent * 1.4
                     }"
                     class="text-white h3"
                 >
@@ -47,7 +50,8 @@
                 </h2>
                 <p
                     :style="{
-                        transform: `translateY(-${0.12 * scrollPosition}px)`
+                        transform: `translateY(-${0.12 * scrollPosition}px)`,
+                        opacity: 1 - scrollPercent * 1.1
                     }"
                     class="text-white mt-0"
                 >
@@ -119,7 +123,7 @@ export default {
     }
 
     &__dimmer {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.6);
     }
 }
 </style>
