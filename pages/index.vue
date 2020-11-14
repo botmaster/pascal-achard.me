@@ -24,7 +24,7 @@
                         </p>
                         <p class="text-lg mt-3">
                             J'adore apprendre des nouvelles technologies,
-                            techniques, méthodes et mettre à profit mon mon
+                            techniques, méthodes et mettre à profit mon
                             expérience avec mes collègues de travail.
                         </p>
                         <p class="mt-6 flex">
@@ -107,7 +107,7 @@
                                 >Heroku</a
                             >...
                         </p>
-                        <h3 class="h4 mt-16">Dernière epxérimentation</h3>
+                        <h3 class="h4 mt-16">Dernière expérimentation</h3>
                         <p class="mt-3">
                             <a
                                 href="https://pascal-is-listening.herokuapp.com/"
