@@ -9,9 +9,7 @@
                 src="../assets/images/pascal-achard.jpg"
                 class="inset-0 w-full h-full"
                 alt="Pascal Achard Senior Frontend developer"
-                :style="{
-                    transform: `scale(${1 + scrollPercent * 0.2})`
-                }"
+                :style="imageStyle"
             />
         </div>
 
@@ -25,7 +23,7 @@
             <div>
                 <p
                     :style="{
-                        transform: `translateY(-${0.18 * scrollPosition}px)`
+                        transform: `translateY(-${0.36 * scrollPosition}px)`
                     }"
                     class="text-white block"
                 >
@@ -33,7 +31,7 @@
                 </p>
                 <h1
                     :style="{
-                        transform: `translateY(-${0.14 * scrollPosition}px)`
+                        transform: `translateY(-${0.26 * scrollPosition}px)`
                     }"
                     class="text-white"
                 >
@@ -41,7 +39,7 @@
                 </h1>
                 <h2
                     :style="{
-                        transform: `translateY(-${0.1 * scrollPosition}px)`
+                        transform: `translateY(-${0.18 * scrollPosition}px)`
                     }"
                     class="text-white h3"
                 >
@@ -49,7 +47,7 @@
                 </h2>
                 <p
                     :style="{
-                        transform: `translateY(-${0.08 * scrollPosition}px)`
+                        transform: `translateY(-${0.12 * scrollPosition}px)`
                     }"
                     class="text-white mt-0"
                 >
@@ -77,6 +75,15 @@ export default {
                 );
             }
             return 1;
+        },
+        imageStyle() {
+            return {
+                transform: `translateY(${Math.round(
+                    this.scrollPosition * 0.2
+                )}px) perspective(50px) translateZ(${
+                    this.scrollPercent / 0.09
+                }px)`
+            };
         }
     },
     mounted() {
