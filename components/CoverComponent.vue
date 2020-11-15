@@ -15,7 +15,7 @@
 
         <div
             :style="{
-                opacity: 1 - scrollPercent * 0.6
+                backgroundColor: `rgba(0, 0, 0, ${0.5 + scrollPercent * 0.5})`
             }"
             class="cover__dimmer absolute inset-0"
         ></div>
@@ -24,7 +24,7 @@
                 <p
                     :style="{
                         transform: `translateY(-${0.36 * scrollPosition}px)`,
-                        opacity: 1 - scrollPercent * 1.9
+                        opacity: 1 - scrollPercent * 2.1
                     }"
                     class="text-white block"
                 >
@@ -33,7 +33,7 @@
                 <h1
                     :style="{
                         transform: `translateY(-${0.26 * scrollPosition}px)`,
-                        opacity: 1 - scrollPercent * 1.7
+                        opacity: 1 - scrollPercent * 1.9
                     }"
                     class="text-white"
                 >
@@ -42,7 +42,7 @@
                 <h2
                     :style="{
                         transform: `translateY(-${0.18 * scrollPosition}px)`,
-                        opacity: 1 - scrollPercent * 1.4
+                        opacity: 1 - scrollPercent * 1.7
                     }"
                     class="text-white h3"
                 >
@@ -51,7 +51,7 @@
                 <p
                     :style="{
                         transform: `translateY(-${0.12 * scrollPosition}px)`,
-                        opacity: 1 - scrollPercent * 1.1
+                        opacity: 1 - scrollPercent * 1.5
                     }"
                     class="text-white mt-0"
                 >
@@ -83,9 +83,9 @@ export default {
         imageStyle() {
             return {
                 transform: `translateY(${Math.round(
-                    this.scrollPosition * 0.2
+                    this.scrollPosition * 0.4
                 )}px) perspective(50px) translateZ(${
-                    this.scrollPercent / 0.09
+                    this.scrollPercent / 0.08
                 }px)`
             };
         }
@@ -123,7 +123,7 @@ export default {
     }
 
     &__dimmer {
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 </style>
