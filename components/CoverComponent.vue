@@ -1,6 +1,15 @@
 <template>
     <div
-        class="section cover flex items-end relative overflow-hidden py-6 md:py-32"
+        class="
+            section
+            cover
+            flex
+            items-end
+            relative
+            overflow-hidden
+            py-6
+            md:py-32
+        "
     >
         <div class="cover__background absolute inset-0 w-full h-full">
             <img
