@@ -11,8 +11,7 @@ export default {
         bodyAttrs: {
             /* id: 'js-scroll' */
         },
-        title:
-            "Pascal Achard - Senior Frontend Developer - Full stack (node.js/vue.js)",
+        title: "Pascal Achard - Senior Frontend Developer - Full stack (node.js/vue.js)",
         meta: [
             { charset: "utf-8" },
             {
@@ -79,8 +78,7 @@ export default {
      ** Customize the progress-bar color
      */
     loading: {
-        color:
-            "#333333" /*,
+        color: "#333333" /*,
         height: '35px',
         duration: 3000,
         throttle: 0,

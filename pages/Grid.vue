@@ -5,52 +5,156 @@
         </div>
         <div class="container mx-auto px-container md:px-container-md">
             <div
-                class="page-grid__grid flex bg-gray-300 -mx-gutter md:-mx-gutter-md"
+                class="
+                    page-grid__grid
+                    flex
+                    bg-gray-300
+                    -mx-gutter
+                    md:-mx-gutter-md
+                "
             >
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
                 <div
-                    class="w-1/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-1/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
             </div>
         </div>
         <div class="container mx-auto px-container md:px-container-md">
             <div
-                class="page-grid__grid flex bg-gray-300 -mx-gutter md:-mx-gutter-md justify-center"
+                class="
+                    page-grid__grid
+                    flex
+                    bg-gray-300
+                    -mx-gutter
+                    md:-mx-gutter-md
+                    justify-center
+                "
             >
                 <div
-                    class="w-8/12 bg-gray-500 h-12 px-gutter md:px-gutter-md page-grid__col"
+                    class="
+                        w-8/12
+                        bg-gray-500
+                        h-12
+                        px-gutter
+                        md:px-gutter-md
+                        page-grid__col
+                    "
                 />
             </div>
         </div>
