@@ -28,7 +28,7 @@
           }"
           class="text-white block"
         >
-          Hi, that's me
+          {{ uptitle }}
         </p>
         <h1
           :style="{
@@ -37,7 +37,7 @@
           }"
           class="text-white"
         >
-          Pascal Achard
+          {{ title }}
         </h1>
         <h2
           :style="{
@@ -46,16 +46,17 @@
           }"
           class="text-white h3"
         >
-          Senior Frontend developer
+          {{ subtitle }}
         </h2>
         <p
+          v-if="info"
           :style="{
             transform: `translateY(-${0.12 * scrollPosition}px)`,
             opacity: 1 - scrollPercent * 1.5,
           }"
           class="text-white mt-0"
         >
-          Full Stack (node.js/vue.js)
+          {{ info }}
         </p>
       </div>
     </div>
@@ -65,6 +66,24 @@
 <script>
 export default {
   name: 'CoverComponent',
+  props: {
+    uptitle: {
+      type: String,
+      default: "Hi, that's me",
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    subtitle: {
+      type: String,
+      required: true,
+    },
+    info: {
+      type: String,
+      default: null,
+    },
+  },
   data() {
     return {
       isScrolling: false,

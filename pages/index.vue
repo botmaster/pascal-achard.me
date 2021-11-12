@@ -1,7 +1,11 @@
 <template>
   <main class="page-index">
     <div class="page-index__cover">
-      <cover-component></cover-component>
+      <cover-component
+        :title="page.title"
+        :subtitle="page.subtitle"
+        :info="page.info"
+      ></cover-component>
     </div>
     <div class="page-index__content py-16 md:py-24">
       <div class="container mx-auto mt-8 px-container md:px-container-md">
