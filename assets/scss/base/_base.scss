@@ -18,7 +18,7 @@ body {
 
 // Liens
 a {
-    @apply text-gray-200;
+    @apply text-gray-200 underline;
     transition: color 0.4s;
 
     &:hover, &:focus {

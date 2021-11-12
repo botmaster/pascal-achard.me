@@ -26,10 +26,14 @@ J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à
     </a>
 </p>
 
-## En ce moment je suis fan de
+### En ce moment je suis fan de
 [Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Webpack](https://webpack.js.org/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so),  [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
 
-## DERNIÈRE EXPÉRIMENTATION
+### Projets coup de coeur
+[antidiscriminations.fr](https://www.antidiscriminations.fr/)
+
+Agir contre les discriminations, un projet pas comme les autres. J'en parle [ici](https://www.linkedin.com/pulse/un-projet-pas-comme-les-autres-pascal-achard/).
+### DERNIÈRE EXPÉRIMENTATION
 https://pascal-is-listening.herokuapp.com/
 
 Application web musicale du type "x is listening" qui affiche ce qu'une personne est en train d'écouter sur Spotify.
