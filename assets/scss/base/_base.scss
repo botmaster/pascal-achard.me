@@ -18,11 +18,11 @@ body {
 
 // Liens
 a {
-    @apply .text-gray-200;
+    @apply text-gray-200;
     transition: color 0.4s;
 
     &:hover, &:focus {
-        @apply .text-gray-500;
+        @apply text-gray-500;
     }
 }
 

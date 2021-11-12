@@ -1,7 +1,7 @@
 <template>
     <footer
         v-observe-visibility="visibilityChanged"
-        class="footer-component bg-black text-white py-8"
+        class="text-white py-8"
     >
         <div class="container mx-auto px-container md:px-container-md">
             <div class="md:flex justify-between">
@@ -112,9 +112,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.footer-component {
-    //
-}
+
 .social-item {
     $self: &;
 

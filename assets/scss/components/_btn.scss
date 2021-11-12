@@ -8,7 +8,7 @@
 
 .btn {
     text-decoration: none;
-    @apply font-rubik-medium .text-sm py-3 px-5 rounded text-center inline-block;
+    @apply font-rubik-medium text-sm py-3 px-5 rounded text-center inline-block;
 
     &--black {
         @apply bg-black text-white border border-black;;
