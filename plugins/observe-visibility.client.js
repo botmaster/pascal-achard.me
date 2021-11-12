@@ -1,4 +1,4 @@
-import Vue from "vue";
-import VueObserveVisibility from "vue-observe-visibility";
+import Vue from 'vue'
+import VueObserveVisibility from 'vue-observe-visibility'
 
-Vue.use(VueObserveVisibility);
+Vue.use(VueObserveVisibility)
