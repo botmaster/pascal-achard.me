@@ -18,7 +18,7 @@ J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à
     </a>
     <a
         class="btn btn--ghost ml-6"
-        href="/CV-PascalAchard-2020.pdf"
+        href="/CV-Pascal-Achard-2021.pdf"
         target="_blank"
         rel="noopener"
         >CV
@@ -26,7 +26,7 @@ J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à
 </p>
 
 ## En ce moment je suis fan de
-[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Webpack](https://webpack.js.org/), [Prettier](https://prettier.io/), [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
+[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Webpack](https://webpack.js.org/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so),  [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
 
 ## DERNIÈRE EXPÉRIMENTATION
 https://pascal-is-listening.herokuapp.com/

@@ -1,3 +1,6 @@
+
+$content-heading-line-height: 1.125;
+
 .nuxt-content {
     li + li {
         margin-top: 0.25em;
@@ -21,7 +24,7 @@
     h6 {
         // color: $content-heading-color;
         // font-weight: $content-heading-weight;
-        // line-height: $content-heading-line-height;
+        line-height: $content-heading-line-height;
     }
     h1 {
         // font-size: 2em;
