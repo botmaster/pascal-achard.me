@@ -48,6 +48,7 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js',
     ],
+    safelist: ['ml-6'],
   },
   future: {
     purgeLayersByDefault: true,
