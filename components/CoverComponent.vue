@@ -15,7 +15,8 @@
 
     <div
       :style="{
-        backgroundColor: `rgba(0, 0, 0, ${0.5 + scrollPercent * 0.5})`,
+        // backgroundColor: `rgba(0, 0, 0, ${0.5 + scrollPercent * 0.5})`,
+        opacity: 0.5 + scrollPercent,
       }"
       class="cover__dimmer absolute inset-0"
     ></div>
@@ -138,7 +139,8 @@ export default {
   }
 
   &__dimmer {
-    background-color: rgba(0, 0, 0, 0.5);
+    @apply bg-polarnight-nord-0;
+    // background-color: rgba(0, 0, 0, 0.5);
   }
 }
 </style>
