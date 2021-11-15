@@ -35,6 +35,7 @@ module.exports = {
         },
         body: {
           background: '#f2f4f8',
+          backgrounddark: '#2E3440',
         },
         polarnight: {
           'nord-0': '#2E3440',
@@ -80,4 +81,5 @@ module.exports = {
   future: {
     purgeLayersByDefault: true,
   },
+  darkMode: 'media',
 }

@@ -8,7 +8,7 @@
 
 .btn {
     text-decoration: none;
-    @apply font-rubik-medium text-sm py-3 px-5 rounded text-center inline-block;
+    @apply font-rubik-medium text-sm py-2 px-4 rounded text-center inline-flex;
 
     &--black {
         @apply bg-black text-white border border-black;;
@@ -21,11 +21,11 @@
     }
 
     &--ghost {
-        @apply bg-transparent text-polarnight-nord-3 border border-current;
+        @apply bg-transparent text-frost-nord-10 dark:text-current border border-frost-nord-8;
         transition: color 0.4s, border-color 0.4s;
 
         &:hover {
-            @apply text-frost-nord-10 border-frost-nord-10;
+            @apply text-polarnight-nord-2 border-polarnight-nord-2 dark:text-snowstorm-nord-4 dark:border-snowstorm-nord-4;
         }
     }
 

@@ -142,5 +142,9 @@ export default {
     @apply bg-polarnight-nord-0;
     // background-color: rgba(0, 0, 0, 0.5);
   }
+
+  h2 {
+    @apply text-white;
+  }
 }
 </style>
