@@ -33,16 +33,19 @@ module.exports = {
           900: '#212121',
           950: '#151414',
         },
+        body: {
+          background: '#f2f4f8',
+        },
         polarnight: {
-          'nord-0': '#2e3440',
-          'nord-1': '#3b4252',
-          'nord-2': '#434c5e',
-          'nord-3': '#4c566a',
+          'nord-0': '#2E3440',
+          'nord-1': '#3B4252',
+          'nord-2': '#434C5E',
+          'nord-3': '#4C566A',
         },
         snowstorm: {
-          'nord-4': '#d8dee9',
-          'nord-5': '#e5e9f0',
-          'nord-6': '#eceff4',
+          'nord-4': '#D8DEE9',
+          'nord-5': '#E5E9F0',
+          'nord-6': '#ECEFF4',
         },
         frost: {
           'nord-7': '#8FBCBB',
