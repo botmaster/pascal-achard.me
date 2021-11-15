@@ -1,5 +1,5 @@
 <template>
-  <footer v-observe-visibility="visibilityChanged" class="text-white py-8">
+  <footer v-observe-visibility="visibilityChanged" class="py-8">
     <div class="container mx-auto px-container md:px-container-md">
       <div class="md:flex justify-between">
         <div class="flex mb-6 md:mb-0">

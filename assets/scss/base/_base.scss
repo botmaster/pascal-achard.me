@@ -12,17 +12,17 @@ html {
 
 body {
     position: relative;
-    @apply font-rubik-regular text-gray-300 bg-gray-950;
+    @apply font-rubik-regular text-polarnight-nord-3 dark:text-snowstorm-nord-4 bg-body-background dark:bg-body-backgrounddark;
 }
 
 
 // Liens
 a {
-    @apply text-gray-200 underline;
+    @apply text-frost-nord-10 dark:text-frost-nord-8;
     transition: color 0.4s;
 
     &:hover, &:focus {
-        @apply text-gray-500;
+        @apply text-polarnight-nord-2 dark:text-snowstorm-nord-6;
     }
 }
 
