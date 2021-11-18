@@ -5,11 +5,11 @@ info: Full Stack (node.js/vue.js)
 ---
 
 ## À propos de moi !
-Je suis développeur front-end sénior depuis 3 ans mais j'ai 20 ans d'expérience dans la création de sites Web et d'applications Web. Je me suis spécialisé dans le JavaScript et notamment avec le framework Vuejs.
+Je suis **développeur front-end sénior** depuis 5 ans et j'ai une vingtaine d'années d'expérience pro dans la création de sites Web et d'applications Web. Je me suis spécialisé dans le **JavaScript** et j'ai une expertise du framework **Vue.js**.
 
-Mes journées professionnelles s'articulent principalement dans la conception et la réalisation de sites internet conçus avec des framework javascript (Vue.js) connectés avec des solutions back-end (Craftcms, Symfony, Headless, ...).
+Mes journées professionnelles s'articulent principalement dans la conception et la réalisation de sites internet conçus avec des framework javascript (Vue.js) connectés à des solutions back-end (Craftcms, Symfony, Headless, ...). Je participe à l'estimation des charges et à la conception technique. Je suis soucieux de respecter les **bonnes pratiques** d'intégration HTML/CSS et d'être conforme aux exigences d'**accessibilité** (RGAA/WCAG).
 
-J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à profit mon expérience avec mes collègues de travail.
+J'adore apprendre des nouvelles technologies, techniques, méthodes. J'aime transmettre mes connaissances et travailler en équipe. Je passe beaucoup de temps à faire de la veille technologique et à expérimenter de nouveaux outils.
 
 <p class="mt-6 flex">
     <a
@@ -27,7 +27,7 @@ J'adore apprendre des nouvelles technologies, techniques, méthodes et mettre à
 </p>
 
 ### En ce moment je suis fan de
-[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Webpack](https://webpack.js.org/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so),  [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
+[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Webpack](https://webpack.js.org/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so),  [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
 
 ### Projets coup de coeur
 [antidiscriminations.fr](https://www.antidiscriminations.fr/)
