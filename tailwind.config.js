@@ -76,7 +76,7 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js',
     ],
-    safelist: ['ml-6'],
+    safelist: ['inline-flex', 'ml-3', 'mr-1', 'mt-6'],
   },
   future: {
     purgeLayersByDefault: true,
