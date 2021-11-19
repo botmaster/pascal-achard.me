@@ -11,24 +11,9 @@ Mes journées professionnelles s'articulent principalement dans la conception et
 
 J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime **transmettre** mes connaissances et travailler en équipe. Je passe beaucoup de temps à faire de la veille technologique et à expérimenter de nouveaux outils. J'ai une appétence pour le graphisme et la musique.
 
-<!-- <p class="mt-6 flex">
+<p class="mt-6 flex gap-3 md:gap-5 flex-wrap">
     <a
-        class="btn btn--ghost"
-        href="mailto:pascal.achard@gmail.com"
-        >Contactez-moi
-    </a>
-    <a
-        class="btn btn--ghost ml-6"
-        href="/CV-Pascal-Achard-2021.pdf"
-        target="_blank"
-        rel="noopener"
-        >CV
-    </a>
-</p> -->
-
-<p class="mt-6">
-    <a
-        class="inline-flex"
+        class="inline-flex align-baseline"
         href="mailto:pascal.achard@gmail.com"
         >
         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="mr-1" width="1.4em" height="1.4em"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -36,10 +21,10 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
           <circle cx="12" cy="12" r="4" />
           <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
         </svg>
-        <span class="block ">Contactez-moi</span>
+        <span>Contactez-moi</span>
     </a>
     <a
-        class="inline-flex ml-3"
+        class="inline-flex align-baseline"
         href="/CV-Pascal-Achard-2021.pdf"
         target="_blank"
         rel="noopener"
@@ -52,7 +37,7 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
           <line x1="9" y1="13" x2="15" y2="13" />
           <line x1="9" y1="17" x2="15" y2="17" />
         </svg>
-        <span class="block">CV <span class="no-underline text-xs">(PDF, 46Ko)</span></span>
+        <span>CV <span class="no-underline text-xs">(PDF, 46Ko)</span></span>
     </a>
 </p>
 

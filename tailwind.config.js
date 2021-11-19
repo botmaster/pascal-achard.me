@@ -75,8 +75,9 @@ module.exports = {
       'pages/**/*.vue',
       'plugins/**/*.js',
       'nuxt.config.js',
+      'content/**/*.md',
     ],
-    safelist: ['inline-flex', 'ml-3', 'mr-1', 'mt-6'],
+    safelist: [],
   },
   future: {
     purgeLayersByDefault: true,
