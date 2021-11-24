@@ -97,7 +97,12 @@ export default {
   /**
    * Nuxt.js buld modules
    */
-  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/color-mode-module
+    '@nuxtjs/color-mode',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss',
+  ],
   /*
    ** Nuxt.js modules
    */
@@ -124,6 +129,11 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+
+  colorMode: {
+    // remove -mode suffix for Tailwind Dark mode support
+    classSuffix: '',
+  },
   /*
    ** Build configuration
    */
