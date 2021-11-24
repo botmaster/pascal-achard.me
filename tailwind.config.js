@@ -82,5 +82,5 @@ module.exports = {
   future: {
     purgeLayersByDefault: true,
   },
-  darkMode: 'media',
+  darkMode: 'class',
 }

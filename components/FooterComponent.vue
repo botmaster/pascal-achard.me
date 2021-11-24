@@ -1,7 +1,14 @@
 <template>
   <footer v-observe-visibility="visibilityChanged" class="py-8">
-    <div class="container mx-auto px-container md:px-container-md">
-      <div class="md:flex justify-between">
+    <div
+      class="
+        container
+        mx-auto
+        px-container
+        md:px-container-md md:flex md:justify-between
+      "
+    >
+      <div class="md:flex md:justify-between md:items-center">
         <div class="flex mb-6 md:mb-0">
           <a
             v-for="(item, index) in links"
@@ -26,6 +33,18 @@
           </a>
         </div>
         <!--                <nuxt-renderer :ssr="$store.state.ssr"></nuxt-renderer>-->
+      </div>
+      <div class="theme-switcher" :class="{ 'is-inview': isVisible }">
+        <label for="themSelect">Thème</label>
+        <select
+          id="themSelect"
+          v-model="$colorMode.preference"
+          class="bg-transparent text-frost-nord-10"
+        >
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
       </div>
     </div>
   </footer>
@@ -143,6 +162,18 @@ export default {
     svg {
       fill: currentColor;
     }
+  }
+}
+
+.theme-switcher {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.4s cubic-bezier(0.215, 0.61, 0.355, 1),
+    transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  &.is-inview {
+    transition-delay: 0.7s;
+    transform: none;
+    opacity: 1;
   }
 }
 </style>
