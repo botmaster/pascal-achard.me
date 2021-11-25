@@ -92,12 +92,16 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/observe-visibility.client', ssr: false }],
+  plugins: [
+    { src: '~/plugins/observe-visibility.client', ssr: false },
+    { src: '~/plugins/import-component', ssr: true },
+  ],
 
   /**
    * Nuxt.js buld modules
    */
   buildModules: [
+    '@nuxtjs/svg',
     // Doc: https://github.com/nuxt-community/color-mode-module
     '@nuxtjs/color-mode',
     '@nuxtjs/eslint-module',

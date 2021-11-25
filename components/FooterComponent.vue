@@ -35,22 +35,24 @@
         <!--                <nuxt-renderer :ssr="$store.state.ssr"></nuxt-renderer>-->
       </div>
       <div class="theme-switcher" :class="{ 'is-inview': isVisible }">
-        <label for="themSelect">Thème</label>
+        <!-- <label for="themSelect">Thème : </label>
         <select
           id="themSelect"
           v-model="$colorMode.preference"
           class="bg-transparent text-frost-nord-10"
         >
-          <option value="system">System</option>
+          <option value="system">Système ({{ prefersColorScheme }})</option>
           <option value="light">Light</option>
           <option value="dark">Dark</option>
-        </select>
+        </select> -->
+        <theme-switcher-component></theme-switcher-component>
       </div>
     </div>
   </footer>
 </template>
 
 <script>
+import ThemeSwitcherComponent from './ThemeSwitcherComponent.vue'
 /**
  * Created by PhpStorm.
  * User: pascal
@@ -62,7 +64,7 @@
 
 export default {
   name: 'FooterComponent',
-  components: {},
+  components: { ThemeSwitcherComponent },
   data() {
     return {
       isVisible: false,
@@ -118,10 +120,18 @@ export default {
       ],
     }
   },
+  computed: {
+    prefersColorScheme() {
+      return process.browser &&
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light'
+    },
+  },
   methods: {
     visibilityChanged(isVisible, entry) {
       this.isVisible = isVisible
-      // console.log(entry);
     },
   },
 }

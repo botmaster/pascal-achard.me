@@ -9,7 +9,6 @@
     </div>
     <div class="page-index__content py-16 md:py-24">
       <div class="container mx-auto mt-8 px-container md:px-container-md">
-        <!-- <h1>coucou {{ page.title }}</h1> -->
         <div class="-mx-gutter md:-mx-gutter-md flex">
           <div class="md:w-8/12 px-gutter md:px-gutter-md">
             <nuxt-content :document="page" />

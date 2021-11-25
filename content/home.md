@@ -4,7 +4,7 @@ subtitle: Senior frontend developer
 info: Full Stack (node.js/vue.js)
 ---
 
-## À propos de moi !
+## À propos de moi
 Je suis **développeur front-end sénior** depuis 5 ans et j'ai une vingtaine d'années d'expérience pro dans la création de sites Web et d'applications Web. Je me suis spécialisé dans le **JavaScript** et j'ai une expertise du framework **Vue.js/Nuxt.js**.
 
 Mes journées professionnelles s'articulent principalement dans la conception et la réalisation de sites internet conçus avec des framework javascript (Vue.js, Alpine.js, ...) connectés à des solutions back-end (Craftcms, Symfony, Headless, ...). Je participe à l'estimation des charges et à la conception technique. Je suis soucieux de respecter les **bonnes pratiques** d'intégration HTML/CSS, de la **performance**, du respect du **graphisme** (pixel perfect) et d'être conforme aux exigences d'**accessibilité** (RGAA/WCAG).
@@ -13,31 +13,20 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
 
 <p class="mt-6 flex gap-3 md:gap-5 flex-wrap">
     <a
-        class="inline-flex align-baseline"
+        class="inline-flex items-center"
         href="mailto:pascal.achard@gmail.com"
         >
-        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="mr-1" width="1.4em" height="1.4em"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <circle cx="12" cy="12" r="4" />
-          <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
-        </svg>
-        <span>Contactez-moi</span>
+        <icon-component class="flex-shrink-0 mr-1" icon="icon-email"></icon-component>
+        <span class="leading-none mt-1">Contactez-moi</span>
     </a>
     <a
-        class="inline-flex align-baseline"
+        class="inline-flex items-center"
         href="/CV-Pascal-Achard-2021.pdf"
         target="_blank"
         rel="noopener"
         >
-        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="mr-1" width="1.4em" height="1.4em" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-          <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-          <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-          <line x1="9" y1="9" x2="10" y2="9" />
-          <line x1="9" y1="13" x2="15" y2="13" />
-          <line x1="9" y1="17" x2="15" y2="17" />
-        </svg>
-        <span>CV <span class="no-underline text-xs">(PDF, 46Ko)</span></span>
+        <icon-component class="flex-shrink-0 mr-1" icon="icon-document"></icon-component>
+        <span class="leading-none mt-1">CV <span class="no-underline text-xs">(PDF, 46Ko)</span></span>
     </a>
 </p>
 
