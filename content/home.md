@@ -4,7 +4,7 @@ subtitle: Senior frontend developer
 info: Full Stack (node.js/vue.js)
 ---
 
-## À propos de moi !
+## À propos de moi
 Je suis **développeur front-end sénior** depuis 5 ans et j'ai une vingtaine d'années d'expérience pro dans la création de sites Web et d'applications Web. Je me suis spécialisé dans le **JavaScript** et j'ai une expertise du framework **Vue.js/Nuxt.js**.
 
 Mes journées professionnelles s'articulent principalement dans la conception et la réalisation de sites internet conçus avec des framework javascript (Vue.js, Alpine.js, ...) connectés à des solutions back-end (Craftcms, Symfony, Headless, ...). Je participe à l'estimation des charges et à la conception technique. Je suis soucieux de respecter les **bonnes pratiques** d'intégration HTML/CSS, de la **performance**, du respect du **graphisme** (pixel perfect) et d'être conforme aux exigences d'**accessibilité** (RGAA/WCAG).

@@ -45,14 +45,14 @@
           <option value="light">Light</option>
           <option value="dark">Dark</option>
         </select> -->
-        <theme-switcher></theme-switcher>
+        <theme-switcher-component></theme-switcher-component>
       </div>
     </div>
   </footer>
 </template>
 
 <script>
-import ThemeSwitcher from './ThemeSwitcher.vue'
+import ThemeSwitcherComponent from './ThemeSwitcherComponent.vue'
 /**
  * Created by PhpStorm.
  * User: pascal
@@ -64,7 +64,7 @@ import ThemeSwitcher from './ThemeSwitcher.vue'
 
 export default {
   name: 'FooterComponent',
-  components: { ThemeSwitcher },
+  components: { ThemeSwitcherComponent },
   data() {
     return {
       isVisible: false,
