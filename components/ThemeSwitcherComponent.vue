@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="flex space-x-3">
     <button
       v-for="theme in themes"
       :key="theme.name"
-      class="p-2"
       :title="theme.label"
+      class="text-2xl p-1"
       @click="$colorMode.preference = theme.name"
     >
       <span class="sr-only">Thème {{ theme.label }}</span>
@@ -22,9 +22,9 @@ export default {
   data() {
     return {
       themes: [
-        { name: 'system', label: 'Système', icon: 'icon-system' },
-        { name: 'dark', label: 'Sombre', icon: 'icon-dark' },
-        { name: 'light', label: 'Claire', icon: 'icon-light' },
+        { name: 'system', label: 'Système', icon: 'mi-computer' },
+        { name: 'dark', label: 'Sombre', icon: 'mi-moon' },
+        { name: 'light', label: 'Claire', icon: 'mi-sun' },
       ],
     }
   },

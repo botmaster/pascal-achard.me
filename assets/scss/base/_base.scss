@@ -7,23 +7,22 @@
 //
 
 html {
-    //
+  //
 }
 
 body {
-    position: relative;
-    @apply font-rubik-regular text-polarnight-nord-3 dark:text-snowstorm-nord-4 bg-body-background dark:bg-body-backgrounddark;
+  position: relative;
+  @apply font-rubik-regular text-polarnight-nord-3 dark:text-snowstorm-nord-4 bg-body-background dark:bg-body-backgrounddark;
 }
-
 
 // Liens
-a, button {
-    @apply text-frost-nord-10 dark:text-frost-nord-8;
-    transition: color 0.4s;
+a,
+button {
+  @apply text-frost-nord-10 dark:text-frost-nord-8;
+  transition: color 0.4s;
 
-    &:hover, &:focus {
-        @apply text-polarnight-nord-2 dark:text-snowstorm-nord-6;
-    }
+  &:hover,
+  &:focus {
+    @apply text-polarnight-nord-2 dark:text-snowstorm-nord-6;
+  }
 }
-
-
