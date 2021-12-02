@@ -16,7 +16,7 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
         class="inline-flex items-center"
         href="mailto:pascal.achard@gmail.com"
         >
-        <icon-component class="flex-shrink-0 mr-1" icon="icon-email"></icon-component>
+        <span class="text-2xl"><icon-component class="mr-1" icon="mi-email"></icon-component></span>
         <span class="leading-none mt-1">Contactez-moi</span>
     </a>
     <a
@@ -25,13 +25,13 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
         target="_blank"
         rel="noopener"
         >
-        <icon-component class="flex-shrink-0 mr-1" icon="icon-document"></icon-component>
+         <span class="text-2xl"><icon-component class="mr-1" icon="mi-document"></icon-component></span>
         <span class="leading-none mt-1">CV <span class="no-underline text-xs">(PDF, 46Ko)</span></span>
     </a>
 </p>
 
 ### En ce moment je suis fan de
-[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
+[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
 
 ### Projets coup de coeur
 [antidiscriminations.fr](https://www.antidiscriminations.fr/)

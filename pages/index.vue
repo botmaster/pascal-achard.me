@@ -21,6 +21,7 @@
 
 <script>
 import CoverComponent from '@/components/CoverComponent'
+
 export default {
   components: { CoverComponent },
   async asyncData({ $content }) {
