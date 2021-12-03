@@ -18,11 +18,16 @@ body {
 // Liens
 a,
 button {
-  @apply text-frost-nord-10 dark:text-frost-nord-8;
+  @apply text-polarnight-nord-3 dark:text-frost-nord-8 underline;
+  text-decoration-color: theme("colors.current");
+  text-decoration-thickness: from-font;
+  text-underline-offset: 1px;
+  text-decoration-style: solid;
   transition: color 0.4s;
 
   &:hover,
   &:focus {
-    @apply text-polarnight-nord-2 dark:text-snowstorm-nord-6;
+    @apply text-frost-nord-10 dark:text-snowstorm-nord-6;
+    text-decoration-color: theme("colors.current");
   }
 }
