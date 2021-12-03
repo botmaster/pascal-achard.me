@@ -6,9 +6,15 @@
       <img
         width="1920"
         height="1280"
+        sizes="(max-width: 2560px) 100vw, 2560px"
+        srcset="
+          ../assets/images/20102017-DSC06728_ufitab_c_scale_w_1024.jpg 1024w,
+          ../assets/images/20102017-DSC06728_ufitab_c_scale_w_1936.jpg 1936w,
+          ../assets/images/20102017-DSC06728_ufitab_c_scale_w_2560.jpg 2560w
+        "
         src="../assets/images/pascal-achard.jpg"
+        alt="Pascal Achard - Senior Frontend Developer"
         class="inset-0 w-full h-full"
-        alt="Pascal Achard Senior Frontend developer"
         :style="imageStyle"
       />
     </div>
