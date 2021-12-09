@@ -1,32 +1,37 @@
 <template>
   <div class="flex space-x-3">
     <button
-      v-for="theme in themes"
+      v-for="theme in themeList"
       :key="theme.name"
       :title="theme.label"
-      class="text-2xl p-1"
-      @click="$colorMode.preference = theme.name"
+      class="btn-theme text-2xl p-1"
+      :class="current === theme.name ? 'is-current' : ''"
+      @click="clickHandler(theme)"
     >
       <span class="sr-only">Thème {{ theme.label }}</span>
-      <component
-        :is="require(`@/assets/icons/${theme.icon}.svg?inline`)"
-        class="btn-theme"
-        :class="$colorMode.preference === theme.name ? 'is-current' : ''"
-      ></component>
+      <icon-component :icon="theme.icon"></icon-component>
     </button>
   </div>
 </template>
 
 <script>
+import IconComponent from './IconComponent.vue'
 export default {
-  data() {
-    return {
-      themes: [
-        { name: 'system', label: 'Système', icon: 'mi-computer' },
-        { name: 'dark', label: 'Sombre', icon: 'mi-moon' },
-        { name: 'light', label: 'Claire', icon: 'mi-sun' },
-      ],
-    }
+  components: { IconComponent },
+  props: {
+    current: {
+      type: String,
+      required: true,
+    },
+    themeList: {
+      type: Array,
+      required: true,
+    },
+  },
+  methods: {
+    clickHandler(theme) {
+      this.$emit('update:current', theme.name)
+    },
   },
 }
 </script>
@@ -34,7 +39,7 @@ export default {
 <style lang="scss" scoped>
 .btn-theme {
   &.is-current {
-    @apply text-polarnight-nord-2 dark:text-snowstorm-nord-6;
+    @apply text-frost-nord-10 dark:text-snowstorm-nord-6;
   }
 }
 </style>
