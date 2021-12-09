@@ -1,12 +1,7 @@
 <template>
   <footer v-observe-visibility="visibilityChanged" class="py-8">
     <div
-      class="
-        container
-        mx-auto
-        px-container
-        md:px-container-md md:flex md:justify-between
-      "
+      class="container mx-auto px-container md:px-container-md md:flex md:justify-between"
     >
       <div class="md:flex md:justify-between md:items-center">
         <div class="flex space-x-3 mb-6 md:mb-0">
@@ -28,7 +23,11 @@
         <!--                <nuxt-renderer :ssr="$store.state.ssr"></nuxt-renderer>-->
       </div>
       <div class="theme-switcher" :class="{ 'is-inview': isVisible }">
-        <theme-switcher-component></theme-switcher-component>
+        <theme-switcher-component
+          :theme-list="themeList"
+          :current="$colorMode.preference"
+          @update:current="$colorMode.preference = $event"
+        ></theme-switcher-component>
       </div>
     </div>
   </footer>
@@ -104,12 +103,12 @@ export default {
     }
   },
   computed: {
-    prefersColorScheme() {
-      return process.browser &&
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
-        ? 'dark'
-        : 'light'
+    themeList() {
+      return [
+        { name: 'system', label: 'Système', icon: 'mi-computer' },
+        { name: 'dark', label: 'Sombre', icon: 'mi-moon' },
+        { name: 'light', label: 'Claire', icon: 'mi-sun' },
+      ]
     },
   },
   methods: {
