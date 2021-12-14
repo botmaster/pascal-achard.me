@@ -20,7 +20,6 @@
             </div>
           </a>
         </div>
-        <!--                <nuxt-renderer :ssr="$store.state.ssr"></nuxt-renderer>-->
       </div>
       <div class="theme-switcher" :class="{ 'is-inview': isVisible }">
         <theme-switcher-component
@@ -41,8 +40,6 @@ import ThemeSwitcherComponent from './ThemeSwitcherComponent.vue'
  * Date: 2019-07-17
  * Time: 16:56
  */
-
-// import NuxtRenderer from "@/components/NuxtRenderer.vue";
 
 export default {
   name: 'FooterComponent',
