@@ -1,7 +1,6 @@
 ---
 title: Pascal Achard
 subtitle: Senior frontend developer
-info: Full Stack (node.js/vue.js)
 ---
 
 ## À propos de moi
