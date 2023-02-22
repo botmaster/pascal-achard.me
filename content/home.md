@@ -31,17 +31,17 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
 </p>
 
 ### En ce moment je suis fan de
-[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Vuex](https://vuex.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/)...
+[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Pinia](https://pinia.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [render](https://www.render.com/)...
 
 ### Projets coup de coeur
 [antidiscriminations.fr](https://www.antidiscriminations.fr/)
 
 Agir contre les discriminations, un projet pas comme les autres. J'en parle [ici](https://www.linkedin.com/pulse/un-projet-pas-comme-les-autres-pascal-achard/).
 ### Dernière expérimentation
-[pascal is listening](https://pascal-is-listening.herokuapp.com/)
+[pascal is listening](https://pascal-is-listening.onrender.com/)
 
 Application web musicale du type "x is listening" qui affiche ce qu'une personne est en train d'écouter sur Spotify.
 
-Projet construit à l'aide des écosystèmes Node.js et npm, Github pour stocker le code, Heroku en tant qu'hôte, Heroku's Redis pour mettre en cache les réponses de l'API Spotify. L'application et l'API interne sont entièrement construites à l'aide du système Nuxt. Nuxt est un framework js basé sur Vue.js qui permet, entre autres, de faire du rendu côté serveur (SSR), du rendu côté client (SPA) et de générer des sites statiques.
+Projet construit à l'aide des écosystèmes Node.js et npm, Github pour stocker le code, Render en tant qu'hôte, Render's Redis pour mettre en cache les réponses de l'API Spotify. L'application et l'API interne sont entièrement construites à l'aide du système Nuxt. Nuxt est un framework js basé sur Vue.js qui permet, entre autres, de faire du rendu côté serveur (SSR), du rendu côté client (SPA) et de générer des sites statiques.
 
 Ce projet m'a permis de mettre en pratique Redis dont je ne connaissais que la théorie. L'API de Spotifiy est très bien faite et particulièrement bien documentée. Nuxt.js m'a permis de capitaliser mon savoir faire en Vue.js et de construire rapidement une application rendue côté serveur. La plateforme Heroku est très utile et simple à utiliser. Elle ressemble beaucoup à Netlify en plus riche.
