@@ -4,7 +4,7 @@ subtitle: Senior frontend developer
 ---
 
 ## À propos de moi
-Je suis **développeur front-end sénior** depuis 7 ans et j'ai une vingtaine d'années d'expérience pro dans la création de sites Web et d'applications Web. Je me suis spécialisé dans le **JavaScript** et j'ai une expertise du framework **Vue.js/Nuxt.js**.
+Je suis **développeur front-end sénior** depuis 7 ans et j'ai une vingtaine d'années d'expérience pro dans la création de sites Web et d'applications Web. Je me suis spécialisé dans le **JavaScript/TypeScript**. J'ai une expertise du framework **Vue.js/Nuxt.js**.
 
 Mes journées professionnelles s'articulent principalement dans la conception et la réalisation d'applications web conçues avec des framework javascript (Vue.js, Alpine.js, ...) connectées à des API. Je participe aux sessions de design et aux rituels agiles. Je suis soucieux de respecter les **bonnes pratiques** d'intégration HTML/CSS, de la **performance**, du respect du **graphisme** (pixel perfect) et d'être conforme aux exigences d'**accessibilité** (RGAA/WCAG).
 
@@ -30,7 +30,7 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
 </p>
 
 ### En ce moment je suis fan de
-[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Pinia](https://pinia.vuejs.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [render](https://www.render.com/)...
+[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Pinia](https://pinia.vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [render](https://www.render.com/)...
 
 ### Projets coup de coeur
 [antidiscriminations.fr](https://www.antidiscriminations.fr/)
