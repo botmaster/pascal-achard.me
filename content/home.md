@@ -30,7 +30,7 @@ J'adore **apprendre** des nouvelles technologies, techniques, méthodes. J'aime 
 </p>
 
 ### En ce moment je suis fan de
-[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxtjs.org/), [Pinia](https://pinia.vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [render](https://www.render.com/)...
+[Vue.js](https://vuejs.org/), [Nuxt.js](https://nuxt.org/), [Pinia](https://pinia.vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Craftcms](https://craftcms.com/), [Twig](https://twig.symfony.com/), [Tailwindcss](https://tailwindcss.com/), [Docker](https://www.docker.com/), [Node.js](https://nodejs.org/), [Webpack](https://webpack.js.org/), [Vite](https://vitejs.dev/), [Prettier](https://prettier.io/), [Notion](https://www.notion.so), [Netlify](https://www.netlify.com/), [render](https://www.render.com/)...
 
 ### Projets coup de coeur
 [antidiscriminations.fr](https://www.antidiscriminations.fr/)
