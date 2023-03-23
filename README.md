@@ -1,4 +1,7 @@
+>**⚠️** This repository is no longer active.
+
 # pascal-achard.me V1
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/30270317-41ec-4bd9-9293-92f29c265b43/deploy-status)](https://app.netlify.com/sites/serene-wozniak-ad4bea/deploys)
 
 My personnal website built with [Nuxt.js](https://nuxtjs.org) and hosted whith [Netlify](https://www.netlify.com/).
