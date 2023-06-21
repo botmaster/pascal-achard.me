@@ -17,7 +17,7 @@
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
+    "nuxt": "^3.4.3",
     "vue-observe-visibility": "^1.0.0"
   },
   "devDependencies": {
